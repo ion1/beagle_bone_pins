@@ -350,6 +350,22 @@
     },
     "P9-46": {
       "name": "GND"
+    },
+    "USR0": {
+      "name": "GPIO1_21",
+      "mpu_pin": "GPMC_A5"
+    },
+    "USR1": {
+      "name": "GPIO1_22",
+      "mpu_pin": "GPMC_A6"
+    },
+    "USR2": {
+      "name": "GPIO1_23",
+      "mpu_pin": "GPMC_A7"
+    },
+    "USR3": {
+      "name": "GPIO1_24",
+      "mpu_pin": "GPMC_A8"
     }
   },
   "mpu_pins": {
