@@ -2,6077 +2,6077 @@
   "bb_pins": {
     "P8-1": {
       "name": "GND"
-    }, 
+    },
     "P8-2": {
       "name": "GND"
-    }, 
+    },
     "P8-3": {
-      "name": "GPIO1_6", 
+      "name": "GPIO1_6",
       "mpu_pin": "GPMC_AD6"
-    }, 
+    },
     "P8-4": {
-      "name": "GPIO1_7", 
+      "name": "GPIO1_7",
       "mpu_pin": "GPMC_AD7"
-    }, 
+    },
     "P8-5": {
-      "name": "GPIO1_2", 
+      "name": "GPIO1_2",
       "mpu_pin": "GPMC_AD2"
-    }, 
+    },
     "P8-6": {
-      "name": "GPIO1_3", 
+      "name": "GPIO1_3",
       "mpu_pin": "GPMC_AD3"
-    }, 
+    },
     "P8-7": {
-      "name": "TIMER4", 
+      "name": "TIMER4",
       "mpu_pin": "GPMC_ADVn_ALE"
-    }, 
+    },
     "P8-8": {
-      "name": "TIMER7", 
+      "name": "TIMER7",
       "mpu_pin": "GPMC_OEn_REn"
-    }, 
+    },
     "P8-9": {
-      "name": "TIMER5", 
+      "name": "TIMER5",
       "mpu_pin": "GPMC_BEn0_CLE"
-    }, 
+    },
     "P8-10": {
-      "name": "TIMER6", 
+      "name": "TIMER6",
       "mpu_pin": "GPMC_WEn"
-    }, 
+    },
     "P8-11": {
-      "name": "GPIO1_13", 
+      "name": "GPIO1_13",
       "mpu_pin": "GPMC_AD13"
-    }, 
+    },
     "P8-12": {
-      "name": "GPIO1_12", 
+      "name": "GPIO1_12",
       "mpu_pin": "GPMC_AD12"
-    }, 
+    },
     "P8-13": {
-      "name": "EHRPWM2B", 
+      "name": "EHRPWM2B",
       "mpu_pin": "GPMC_AD9"
-    }, 
+    },
     "P8-14": {
-      "name": "GPIO0_26", 
+      "name": "GPIO0_26",
       "mpu_pin": "GPMC_AD10"
-    }, 
+    },
     "P8-15": {
-      "name": "GPIO1_15", 
+      "name": "GPIO1_15",
       "mpu_pin": "GPMC_AD15"
-    }, 
+    },
     "P8-16": {
-      "name": "GPIO1_14", 
+      "name": "GPIO1_14",
       "mpu_pin": "GPMC_AD14"
-    }, 
+    },
     "P8-17": {
-      "name": "GPIO0_27", 
+      "name": "GPIO0_27",
       "mpu_pin": "GPMC_AD11"
-    }, 
+    },
     "P8-18": {
-      "name": "GPIO2_1", 
+      "name": "GPIO2_1",
       "mpu_pin": "GPMC_CLK"
-    }, 
+    },
     "P8-19": {
-      "name": "EHRPWM2A", 
+      "name": "EHRPWM2A",
       "mpu_pin": "GPMC_AD8"
-    }, 
+    },
     "P8-20": {
-      "name": "GPIO1_31", 
+      "name": "GPIO1_31",
       "mpu_pin": "GPMC_CSn2"
-    }, 
+    },
     "P8-21": {
-      "name": "GPIO1_30", 
+      "name": "GPIO1_30",
       "mpu_pin": "GPMC_CSn1"
-    }, 
+    },
     "P8-22": {
-      "name": "GPIO1_5", 
+      "name": "GPIO1_5",
       "mpu_pin": "GPMC_AD5"
-    }, 
+    },
     "P8-23": {
-      "name": "GPIO1_4", 
+      "name": "GPIO1_4",
       "mpu_pin": "GPMC_AD4"
-    }, 
+    },
     "P8-24": {
-      "name": "GPIO1_1", 
+      "name": "GPIO1_1",
       "mpu_pin": "GPMC_AD1"
-    }, 
+    },
     "P8-25": {
-      "name": "GPIO1_0", 
+      "name": "GPIO1_0",
       "mpu_pin": "GPMC_AD0"
-    }, 
+    },
     "P8-26": {
-      "name": "GPIO1_29", 
+      "name": "GPIO1_29",
       "mpu_pin": "GPMC_CSn0"
-    }, 
+    },
     "P8-27": {
-      "name": "GPIO2_22", 
+      "name": "GPIO2_22",
       "mpu_pin": "LCD_VSYNC"
-    }, 
+    },
     "P8-28": {
-      "name": "GPIO2_24", 
+      "name": "GPIO2_24",
       "mpu_pin": "LCD_PCLK"
-    }, 
+    },
     "P8-29": {
-      "name": "GPIO2_23", 
+      "name": "GPIO2_23",
       "mpu_pin": "LCD_HSYNC"
-    }, 
+    },
     "P8-30": {
-      "name": "GPIO2_25", 
+      "name": "GPIO2_25",
       "mpu_pin": "LCD_AC_BIAS_EN"
-    }, 
+    },
     "P8-31": {
-      "name": "UART5_CTSN", 
+      "name": "UART5_CTSN",
       "mpu_pin": "LCD_DATA14"
-    }, 
+    },
     "P8-32": {
-      "name": "UART5_RTSN", 
+      "name": "UART5_RTSN",
       "mpu_pin": "LCD_DATA15"
-    }, 
+    },
     "P8-33": {
-      "name": "UART4_RTSN", 
+      "name": "UART4_RTSN",
       "mpu_pin": "LCD_DATA13"
-    }, 
+    },
     "P8-34": {
-      "name": "UART3_RTSN", 
+      "name": "UART3_RTSN",
       "mpu_pin": "LCD_DATA11"
-    }, 
+    },
     "P8-35": {
-      "name": "UART4_CTSN", 
+      "name": "UART4_CTSN",
       "mpu_pin": "LCD_DATA12"
-    }, 
+    },
     "P8-36": {
-      "name": "UART3_CTSN", 
+      "name": "UART3_CTSN",
       "mpu_pin": "LCD_DATA10"
-    }, 
+    },
     "P8-37": {
-      "name": "UART5_TXD", 
+      "name": "UART5_TXD",
       "mpu_pin": "LCD_DATA8"
-    }, 
+    },
     "P8-38": {
-      "name": "UART5_RXD", 
+      "name": "UART5_RXD",
       "mpu_pin": "LCD_DATA9"
-    }, 
+    },
     "P8-39": {
-      "name": "GPIO2_12", 
+      "name": "GPIO2_12",
       "mpu_pin": "LCD_DATA6"
-    }, 
+    },
     "P8-40": {
-      "name": "GPIO2_13", 
+      "name": "GPIO2_13",
       "mpu_pin": "LCD_DATA7"
-    }, 
+    },
     "P8-41": {
-      "name": "GPIO2_10", 
+      "name": "GPIO2_10",
       "mpu_pin": "LCD_DATA4"
-    }, 
+    },
     "P8-42": {
-      "name": "GPIO2_11", 
+      "name": "GPIO2_11",
       "mpu_pin": "LCD_DATA5"
-    }, 
+    },
     "P8-43": {
-      "name": "GPIO2_8", 
+      "name": "GPIO2_8",
       "mpu_pin": "LCD_DATA2"
-    }, 
+    },
     "P8-44": {
-      "name": "GPIO2_9", 
+      "name": "GPIO2_9",
       "mpu_pin": "LCD_DATA3"
-    }, 
+    },
     "P8-45": {
-      "name": "GPIO2_6", 
+      "name": "GPIO2_6",
       "mpu_pin": "LCD_DATA0"
-    }, 
+    },
     "P8-46": {
-      "name": "GPIO2_7", 
+      "name": "GPIO2_7",
       "mpu_pin": "LCD_DATA1"
-    }, 
+    },
     "P9-1": {
       "name": "GND"
-    }, 
+    },
     "P9-2": {
       "name": "GND"
-    }, 
+    },
     "P9-3": {
       "name": "DC_3.3V"
-    }, 
+    },
     "P9-4": {
       "name": "DC_3.3V"
-    }, 
+    },
     "P9-5": {
       "name": "VDD_5V"
-    }, 
+    },
     "P9-6": {
       "name": "VDD_5V"
-    }, 
+    },
     "P9-7": {
       "name": "SYS_5V"
-    }, 
+    },
     "P9-8": {
       "name": "SYS_5V"
-    }, 
+    },
     "P9-9": {
       "name": "PWR_BUT"
-    }, 
+    },
     "P9-10": {
-      "name": "SYS_RESETn", 
+      "name": "SYS_RESETn",
       "mpu_pin": "WARMRSTn"
-    }, 
+    },
     "P9-11": {
-      "name": "UART4_RXD", 
+      "name": "UART4_RXD",
       "mpu_pin": "GPMC_WAIT0"
-    }, 
+    },
     "P9-12": {
-      "name": "GPIO1_28", 
+      "name": "GPIO1_28",
       "mpu_pin": "GPMC_BEn1"
-    }, 
+    },
     "P9-13": {
-      "name": "UART4_TXD", 
+      "name": "UART4_TXD",
       "mpu_pin": "GPMC_WPn"
-    }, 
+    },
     "P9-14": {
-      "name": "EHRPWM1A", 
+      "name": "EHRPWM1A",
       "mpu_pin": "GPMC_A2"
-    }, 
+    },
     "P9-15": {
-      "name": "GPIO1_16", 
+      "name": "GPIO1_16",
       "mpu_pin": "GPMC_A0"
-    }, 
+    },
     "P9-16": {
-      "name": "EHRPWM1B", 
+      "name": "EHRPWM1B",
       "mpu_pin": "GPMC_A3"
-    }, 
+    },
     "P9-17": {
-      "name": "I2C1_SCL", 
+      "name": "I2C1_SCL",
       "mpu_pin": "SPI0_CS0"
-    }, 
+    },
     "P9-18": {
-      "name": "I2C1_SDA", 
+      "name": "I2C1_SDA",
       "mpu_pin": "SPI0_D1"
-    }, 
+    },
     "P9-19": {
-      "name": "I2C2_SCL", 
+      "name": "I2C2_SCL",
       "mpu_pin": "UART1_RTSn"
-    }, 
+    },
     "P9-20": {
-      "name": "I2C2_SDA", 
+      "name": "I2C2_SDA",
       "mpu_pin": "UART1_CTSn"
-    }, 
+    },
     "P9-21": {
-      "name": "UART2_TXD", 
+      "name": "UART2_TXD",
       "mpu_pin": "SPI0_D0"
-    }, 
+    },
     "P9-22": {
-      "name": "UART2_RXD", 
+      "name": "UART2_RXD",
       "mpu_pin": "SPI0_SCLK"
-    }, 
+    },
     "P9-23": {
-      "name": "GPIO1_17", 
+      "name": "GPIO1_17",
       "mpu_pin": "GPMC_A1"
-    }, 
+    },
     "P9-24": {
-      "name": "UART1_TXD", 
+      "name": "UART1_TXD",
       "mpu_pin": "UART1_TXD"
-    }, 
+    },
     "P9-25": {
-      "name": "GPIO3_21", 
+      "name": "GPIO3_21",
       "mpu_pin": "MCASP0_AHCLKX"
-    }, 
+    },
     "P9-26": {
-      "name": "UART1_RXD", 
+      "name": "UART1_RXD",
       "mpu_pin": "UART1_RXD"
-    }, 
+    },
     "P9-27": {
-      "name": "GPIO3_19", 
+      "name": "GPIO3_19",
       "mpu_pin": "MCASP0_FSR"
-    }, 
+    },
     "P9-28": {
-      "name": "SPI1_CS0", 
+      "name": "SPI1_CS0",
       "mpu_pin": "MCASP0_AHCLKR"
-    }, 
+    },
     "P9-29": {
-      "name": "SPI1_D0", 
+      "name": "SPI1_D0",
       "mpu_pin": "MCASP0_FSX"
-    }, 
+    },
     "P9-30": {
-      "name": "SPI1_D1", 
+      "name": "SPI1_D1",
       "mpu_pin": "MCASP0_AXR0"
-    }, 
+    },
     "P9-31": {
-      "name": "SPI1_SCLK", 
+      "name": "SPI1_SCLK",
       "mpu_pin": "MCASP0_ACLKX"
-    }, 
+    },
     "P9-32": {
       "name": "VADC"
-    }, 
+    },
     "P9-33": {
-      "name": "AIN4", 
+      "name": "AIN4",
       "mpu_pin": "AIN4"
-    }, 
+    },
     "P9-34": {
       "name": "AGND"
-    }, 
+    },
     "P9-35": {
-      "name": "AIN6", 
+      "name": "AIN6",
       "mpu_pin": "AIN6"
-    }, 
+    },
     "P9-36": {
-      "name": "AIN5", 
+      "name": "AIN5",
       "mpu_pin": "AIN5"
-    }, 
+    },
     "P9-37": {
-      "name": "AIN2", 
+      "name": "AIN2",
       "mpu_pin": "AIN2"
-    }, 
+    },
     "P9-38": {
-      "name": "AIN3", 
+      "name": "AIN3",
       "mpu_pin": "AIN3"
-    }, 
+    },
     "P9-39": {
-      "name": "AIN0", 
+      "name": "AIN0",
       "mpu_pin": "AIN0"
-    }, 
+    },
     "P9-40": {
-      "name": "AIN1", 
+      "name": "AIN1",
       "mpu_pin": "AIN1"
-    }, 
+    },
     "P9-41": {
-      "name": "CLKOUT2", 
+      "name": "CLKOUT2",
       "mpu_pin": "XDMA_EVENT_INTR1"
-    }, 
+    },
     "P9-42": {
-      "name": "GPIO0_7", 
+      "name": "GPIO0_7",
       "mpu_pin": "ECAP0_IN_PWM0_OUT"
-    }, 
+    },
     "P9-43": {
       "name": "GND"
-    }, 
+    },
     "P9-44": {
       "name": "GND"
-    }, 
+    },
     "P9-45": {
       "name": "GND"
-    }, 
+    },
     "P9-46": {
       "name": "GND"
     }
-  }, 
+  },
   "mpu_pins": {
     "AIN0": {
-      "linux_name": "ain0", 
+      "linux_name": "ain0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN0", 
+          "mode": 0,
+          "name": "AIN0",
           "type": "A"
         }
       ]
-    }, 
+    },
     "AIN1": {
-      "linux_name": "ain1", 
+      "linux_name": "ain1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN1", 
+          "mode": 0,
+          "name": "AIN1",
           "type": "A"
         }
       ]
-    }, 
+    },
     "AIN2": {
-      "linux_name": "ain2", 
+      "linux_name": "ain2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN2", 
+          "mode": 0,
+          "name": "AIN2",
           "type": "A"
         }
       ]
-    }, 
+    },
     "AIN3": {
-      "linux_name": "ain3", 
+      "linux_name": "ain3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN3", 
+          "mode": 0,
+          "name": "AIN3",
           "type": "A"
         }
       ]
-    }, 
+    },
     "AIN4": {
-      "linux_name": "ain4", 
+      "linux_name": "ain4",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN4", 
+          "mode": 0,
+          "name": "AIN4",
           "type": "A"
         }
       ]
-    }, 
+    },
     "AIN5": {
-      "linux_name": "ain5", 
+      "linux_name": "ain5",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN5", 
+          "mode": 0,
+          "name": "AIN5",
           "type": "A"
         }
       ]
-    }, 
+    },
     "AIN6": {
-      "linux_name": "ain6", 
+      "linux_name": "ain6",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN6", 
+          "mode": 0,
+          "name": "AIN6",
           "type": "A"
         }
       ]
-    }, 
+    },
     "AIN7": {
-      "linux_name": "ain7", 
+      "linux_name": "ain7",
       "signals": [
         {
-          "mode": 0, 
-          "name": "AIN7", 
+          "mode": 0,
+          "name": "AIN7",
           "type": "A"
         }
       ]
-    }, 
+    },
     "CAP_VBB_MPU": {
       "signals": [
         {
-          "name": "CAP_VBB_MPU", 
+          "name": "CAP_VBB_MPU",
           "type": "A"
         }
       ]
-    }, 
+    },
     "CAP_VDD_RTC": {
       "signals": [
         {
-          "name": "CAP_VDD_RTC", 
+          "name": "CAP_VDD_RTC",
           "type": "A"
         }
       ]
-    }, 
+    },
     "CAP_VDD_SRAM_CORE": {
       "signals": [
         {
-          "name": "CAP_VDD_SRAM_CORE", 
+          "name": "CAP_VDD_SRAM_CORE",
           "type": "A"
         }
       ]
-    }, 
+    },
     "CAP_VDD_SRAM_MPU": {
       "signals": [
         {
-          "name": "CAP_VDD_SRAM_MPU", 
+          "name": "CAP_VDD_SRAM_MPU",
           "type": "A"
         }
       ]
-    }, 
+    },
     "DDR_A0": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a0", 
+          "mode": 0,
+          "name": "ddr_a0",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A1": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a1", 
+          "mode": 0,
+          "name": "ddr_a1",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A2": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a2", 
+          "mode": 0,
+          "name": "ddr_a2",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A3": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a3", 
+          "mode": 0,
+          "name": "ddr_a3",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A4": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a4", 
+          "mode": 0,
+          "name": "ddr_a4",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A5": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a5", 
+          "mode": 0,
+          "name": "ddr_a5",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A6": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a6", 
+          "mode": 0,
+          "name": "ddr_a6",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A7": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a7", 
+          "mode": 0,
+          "name": "ddr_a7",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A8": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a8", 
+          "mode": 0,
+          "name": "ddr_a8",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A9": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a9", 
+          "mode": 0,
+          "name": "ddr_a9",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A10": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a10", 
+          "mode": 0,
+          "name": "ddr_a10",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A11": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a11", 
+          "mode": 0,
+          "name": "ddr_a11",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A12": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a12", 
+          "mode": 0,
+          "name": "ddr_a12",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A13": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a13", 
+          "mode": 0,
+          "name": "ddr_a13",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A14": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a14", 
+          "mode": 0,
+          "name": "ddr_a14",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_A15": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_a15", 
+          "mode": 0,
+          "name": "ddr_a15",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_BA0": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_ba0", 
+          "mode": 0,
+          "name": "ddr_ba0",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_BA1": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_ba1", 
+          "mode": 0,
+          "name": "ddr_ba1",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_BA2": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_ba2", 
+          "mode": 0,
+          "name": "ddr_ba2",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_CASn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_casn", 
+          "mode": 0,
+          "name": "ddr_casn",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_CK": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_ck", 
+          "mode": 0,
+          "name": "ddr_ck",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_CKE": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_cke", 
+          "mode": 0,
+          "name": "ddr_cke",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_CKn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_nck", 
+          "mode": 0,
+          "name": "ddr_nck",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_CSn0": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_csn0", 
+          "mode": 0,
+          "name": "ddr_csn0",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_D0": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d0", 
+          "mode": 0,
+          "name": "ddr_d0",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D1": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d1", 
+          "mode": 0,
+          "name": "ddr_d1",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D2": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d2", 
+          "mode": 0,
+          "name": "ddr_d2",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D3": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d3", 
+          "mode": 0,
+          "name": "ddr_d3",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D4": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d4", 
+          "mode": 0,
+          "name": "ddr_d4",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D5": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d5", 
+          "mode": 0,
+          "name": "ddr_d5",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D6": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d6", 
+          "mode": 0,
+          "name": "ddr_d6",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D7": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d7", 
+          "mode": 0,
+          "name": "ddr_d7",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D8": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d8", 
+          "mode": 0,
+          "name": "ddr_d8",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D9": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d9", 
+          "mode": 0,
+          "name": "ddr_d9",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D10": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d10", 
+          "mode": 0,
+          "name": "ddr_d10",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D11": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d11", 
+          "mode": 0,
+          "name": "ddr_d11",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D12": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d12", 
+          "mode": 0,
+          "name": "ddr_d12",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D13": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d13", 
+          "mode": 0,
+          "name": "ddr_d13",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D14": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d14", 
+          "mode": 0,
+          "name": "ddr_d14",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_D15": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_d15", 
+          "mode": 0,
+          "name": "ddr_d15",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_DQM0": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_dqm0", 
+          "mode": 0,
+          "name": "ddr_dqm0",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_DQM1": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_dqm1", 
+          "mode": 0,
+          "name": "ddr_dqm1",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_DQS0": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_dqs0", 
+          "mode": 0,
+          "name": "ddr_dqs0",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_DQS1": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_dqs1", 
+          "mode": 0,
+          "name": "ddr_dqs1",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_DQSn0": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_dqsn0", 
+          "mode": 0,
+          "name": "ddr_dqsn0",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_DQSn1": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_dqsn1", 
+          "mode": 0,
+          "name": "ddr_dqsn1",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "DDR_ODT": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_odt", 
+          "mode": 0,
+          "name": "ddr_odt",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_RASn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_rasn", 
+          "mode": 0,
+          "name": "ddr_rasn",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_RESETn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_resetn", 
+          "mode": 0,
+          "name": "ddr_resetn",
           "type": "O"
         }
       ]
-    }, 
+    },
     "DDR_VREF": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_vref", 
+          "mode": 0,
+          "name": "ddr_vref",
           "type": "A"
         }
       ]
-    }, 
+    },
     "DDR_VTP": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_vtp", 
+          "mode": 0,
+          "name": "ddr_vtp",
           "type": "I"
         }
       ]
-    }, 
+    },
     "DDR_WEn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ddr_wen", 
+          "mode": 0,
+          "name": "ddr_wen",
           "type": "O"
         }
       ]
-    }, 
+    },
     "ECAP0_IN_PWM0_OUT": {
-      "linux_name": "ecap0_in_pwm0_out", 
+      "linux_name": "ecap0_in_pwm0_out",
       "signals": [
         {
-          "mode": 0, 
-          "name": "eCAP0_in_PWM0_out", 
+          "mode": 0,
+          "name": "eCAP0_in_PWM0_out",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart3_txd", 
+          "mode": 1,
+          "name": "uart3_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "spi1_cs1", 
+          "mode": 2,
+          "name": "spi1_cs1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "pr1_ecap0_ecap_capin_apwm_o", 
+          "mode": 3,
+          "name": "pr1_ecap0_ecap_capin_apwm_o",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "spi1_sclk", 
+          "mode": 4,
+          "name": "spi1_sclk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc0_sdwp", 
+          "mode": 5,
+          "name": "mmc0_sdwp",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "xdma_event_intr2", 
+          "mode": 6,
+          "name": "xdma_event_intr2",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 7, 
-          "mode": 7, 
-          "name": "gpio0_7", 
+          "gpio_num": 7,
+          "mode": 7,
+          "name": "gpio0_7",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "EMU0": {
-      "linux_name": "emu0", 
+      "linux_name": "emu0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "EMU0", 
+          "mode": 0,
+          "name": "EMU0",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 103, 
-          "mode": 7, 
-          "name": "gpio3_7", 
+          "gpio_num": 103,
+          "mode": 7,
+          "name": "gpio3_7",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "EMU1": {
-      "linux_name": "emu1", 
+      "linux_name": "emu1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "EMU1", 
+          "mode": 0,
+          "name": "EMU1",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 104, 
-          "mode": 7, 
-          "name": "gpio3_8", 
+          "gpio_num": 104,
+          "mode": 7,
+          "name": "gpio3_8",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "EXTINTn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "nNMI", 
+          "mode": 0,
+          "name": "nNMI",
           "type": "I"
         }
       ]
-    }, 
+    },
     "EXT_WAKEUP": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "EXT_WAKEUP", 
+          "mode": 0,
+          "name": "EXT_WAKEUP",
           "type": "I"
         }
       ]
-    }, 
+    },
     "GPMC_A0": {
-      "linux_name": "gpmc_a0", 
+      "linux_name": "gpmc_a0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a0", 
+          "mode": 0,
+          "name": "gpmc_a0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_txen", 
+          "mode": 1,
+          "name": "gmii2_txen",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_tctl", 
+          "mode": 2,
+          "name": "rgmii2_tctl",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "rmii2_txen", 
+          "mode": 3,
+          "name": "rmii2_txen",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a16", 
+          "mode": 4,
+          "name": "gpmc_a16",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii_mt1_clk", 
+          "mode": 5,
+          "name": "pr1_mii_mt1_clk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "ehrpwm1_tripzone_input", 
+          "mode": 6,
+          "name": "ehrpwm1_tripzone_input",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 48, 
-          "mode": 7, 
-          "name": "gpio1_16", 
+          "gpio_num": 48,
+          "mode": 7,
+          "name": "gpio1_16",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A1": {
-      "linux_name": "gpmc_a1", 
+      "linux_name": "gpmc_a1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a1", 
+          "mode": 0,
+          "name": "gpmc_a1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_rxdv", 
+          "mode": 1,
+          "name": "gmii2_rxdv",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_rctl", 
+          "mode": 2,
+          "name": "rgmii2_rctl",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat0", 
+          "mode": 3,
+          "name": "mmc2_dat0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a17", 
+          "mode": 4,
+          "name": "gpmc_a17",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_txd3", 
+          "mode": 5,
+          "name": "pr1_mii1_txd3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "ehrpwm0_synco", 
+          "mode": 6,
+          "name": "ehrpwm0_synco",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 49, 
-          "mode": 7, 
-          "name": "gpio1_17", 
+          "gpio_num": 49,
+          "mode": 7,
+          "name": "gpio1_17",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A2": {
-      "linux_name": "gpmc_a2", 
+      "linux_name": "gpmc_a2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a2", 
+          "mode": 0,
+          "name": "gpmc_a2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_txd3", 
+          "mode": 1,
+          "name": "gmii2_txd3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_td3", 
+          "mode": 2,
+          "name": "rgmii2_td3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat1", 
+          "mode": 3,
+          "name": "mmc2_dat1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a18", 
+          "mode": 4,
+          "name": "gpmc_a18",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_txd2", 
+          "mode": 5,
+          "name": "pr1_mii1_txd2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "ehrpwm1A", 
+          "mode": 6,
+          "name": "ehrpwm1A",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 50, 
-          "mode": 7, 
-          "name": "gpio1_18", 
+          "gpio_num": 50,
+          "mode": 7,
+          "name": "gpio1_18",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A3": {
-      "linux_name": "gpmc_a3", 
+      "linux_name": "gpmc_a3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a3", 
+          "mode": 0,
+          "name": "gpmc_a3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_txd2", 
+          "mode": 1,
+          "name": "gmii2_txd2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_td2", 
+          "mode": 2,
+          "name": "rgmii2_td2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat2", 
+          "mode": 3,
+          "name": "mmc2_dat2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a19", 
+          "mode": 4,
+          "name": "gpmc_a19",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_txd1", 
+          "mode": 5,
+          "name": "pr1_mii1_txd1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "ehrpwm1B", 
+          "mode": 6,
+          "name": "ehrpwm1B",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 51, 
-          "mode": 7, 
-          "name": "gpio1_19", 
+          "gpio_num": 51,
+          "mode": 7,
+          "name": "gpio1_19",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A4": {
-      "linux_name": "gpmc_a4", 
+      "linux_name": "gpmc_a4",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a4", 
+          "mode": 0,
+          "name": "gpmc_a4",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_txd1", 
+          "mode": 1,
+          "name": "gmii2_txd1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_td1", 
+          "mode": 2,
+          "name": "rgmii2_td1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "rmii2_txd1", 
+          "mode": 3,
+          "name": "rmii2_txd1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a20", 
+          "mode": 4,
+          "name": "gpmc_a20",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_txd0", 
+          "mode": 5,
+          "name": "pr1_mii1_txd0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "eQEP1A_in", 
+          "mode": 6,
+          "name": "eQEP1A_in",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 52, 
-          "mode": 7, 
-          "name": "gpio1_20", 
+          "gpio_num": 52,
+          "mode": 7,
+          "name": "gpio1_20",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A5": {
-      "linux_name": "gpmc_a5", 
+      "linux_name": "gpmc_a5",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a5", 
+          "mode": 0,
+          "name": "gpmc_a5",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_txd0", 
+          "mode": 1,
+          "name": "gmii2_txd0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_td0", 
+          "mode": 2,
+          "name": "rgmii2_td0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "rmii2_txd0", 
+          "mode": 3,
+          "name": "rmii2_txd0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a21", 
+          "mode": 4,
+          "name": "gpmc_a21",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_rxd3", 
+          "mode": 5,
+          "name": "pr1_mii1_rxd3",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "eQEP1B_in", 
+          "mode": 6,
+          "name": "eQEP1B_in",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 53, 
-          "mode": 7, 
-          "name": "gpio1_21", 
+          "gpio_num": 53,
+          "mode": 7,
+          "name": "gpio1_21",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A6": {
-      "linux_name": "gpmc_a6", 
+      "linux_name": "gpmc_a6",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a6", 
+          "mode": 0,
+          "name": "gpmc_a6",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_txclk", 
+          "mode": 1,
+          "name": "gmii2_txclk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_tclk", 
+          "mode": 2,
+          "name": "rgmii2_tclk",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat4", 
+          "mode": 3,
+          "name": "mmc2_dat4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a22", 
+          "mode": 4,
+          "name": "gpmc_a22",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_rxd2", 
+          "mode": 5,
+          "name": "pr1_mii1_rxd2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "eQEP1_index", 
+          "mode": 6,
+          "name": "eQEP1_index",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 54, 
-          "mode": 7, 
-          "name": "gpio1_22", 
+          "gpio_num": 54,
+          "mode": 7,
+          "name": "gpio1_22",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A7": {
-      "linux_name": "gpmc_a7", 
+      "linux_name": "gpmc_a7",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a7", 
+          "mode": 0,
+          "name": "gpmc_a7",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_rxclk", 
+          "mode": 1,
+          "name": "gmii2_rxclk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_rclk", 
+          "mode": 2,
+          "name": "rgmii2_rclk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat5", 
+          "mode": 3,
+          "name": "mmc2_dat5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a23", 
+          "mode": 4,
+          "name": "gpmc_a23",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_rxd1", 
+          "mode": 5,
+          "name": "pr1_mii1_rxd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "eQEP1_strobe", 
+          "mode": 6,
+          "name": "eQEP1_strobe",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 55, 
-          "mode": 7, 
-          "name": "gpio1_23", 
+          "gpio_num": 55,
+          "mode": 7,
+          "name": "gpio1_23",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A8": {
-      "linux_name": "gpmc_a8", 
+      "linux_name": "gpmc_a8",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a8", 
+          "mode": 0,
+          "name": "gpmc_a8",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_rxd3", 
+          "mode": 1,
+          "name": "gmii2_rxd3",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_rd3", 
+          "mode": 2,
+          "name": "rgmii2_rd3",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat6", 
+          "mode": 3,
+          "name": "mmc2_dat6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a24", 
+          "mode": 4,
+          "name": "gpmc_a24",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_rxd0", 
+          "mode": 5,
+          "name": "pr1_mii1_rxd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_aclkx", 
+          "mode": 6,
+          "name": "mcasp0_aclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 56, 
-          "mode": 7, 
-          "name": "gpio1_24", 
+          "gpio_num": 56,
+          "mode": 7,
+          "name": "gpio1_24",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A9": {
-      "linux_name": "gpmc_a9", 
+      "linux_name": "gpmc_a9",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a9", 
+          "mode": 0,
+          "name": "gpmc_a9",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_rxd2", 
+          "mode": 1,
+          "name": "gmii2_rxd2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_rd2", 
+          "mode": 2,
+          "name": "rgmii2_rd2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat7", 
+          "mode": 3,
+          "name": "mmc2_dat7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a25", 
+          "mode": 4,
+          "name": "gpmc_a25",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii_mr1_clk", 
+          "mode": 5,
+          "name": "pr1_mii_mr1_clk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_fsx", 
+          "mode": 6,
+          "name": "mcasp0_fsx",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 57, 
-          "mode": 7, 
-          "name": "gpio1_25", 
+          "gpio_num": 57,
+          "mode": 7,
+          "name": "gpio1_25",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A10": {
-      "linux_name": "gpmc_a10", 
+      "linux_name": "gpmc_a10",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a10", 
+          "mode": 0,
+          "name": "gpmc_a10",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_rxd1", 
+          "mode": 1,
+          "name": "gmii2_rxd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_rd1", 
+          "mode": 2,
+          "name": "rgmii2_rd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "rmii2_rxd1", 
+          "mode": 3,
+          "name": "rmii2_rxd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a26", 
+          "mode": 4,
+          "name": "gpmc_a26",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_rxdv", 
+          "mode": 5,
+          "name": "pr1_mii1_rxdv",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_axr0", 
+          "mode": 6,
+          "name": "mcasp0_axr0",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 58, 
-          "mode": 7, 
-          "name": "gpio1_26", 
+          "gpio_num": 58,
+          "mode": 7,
+          "name": "gpio1_26",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_A11": {
-      "linux_name": "gpmc_a11", 
+      "linux_name": "gpmc_a11",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_a11", 
+          "mode": 0,
+          "name": "gpmc_a11",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_rxd0", 
+          "mode": 1,
+          "name": "gmii2_rxd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii2_rd0", 
+          "mode": 2,
+          "name": "rgmii2_rd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "rmii2_rxd0", 
+          "mode": 3,
+          "name": "rmii2_rxd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_a27", 
+          "mode": 4,
+          "name": "gpmc_a27",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_rxer", 
+          "mode": 5,
+          "name": "pr1_mii1_rxer",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_axr1", 
+          "mode": 6,
+          "name": "mcasp0_axr1",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 59, 
-          "mode": 7, 
-          "name": "gpio1_27", 
+          "gpio_num": 59,
+          "mode": 7,
+          "name": "gpio1_27",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD0": {
-      "linux_name": "gpmc_ad0", 
+      "linux_name": "gpmc_ad0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad0", 
+          "mode": 0,
+          "name": "gpmc_ad0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat0", 
+          "mode": 1,
+          "name": "mmc1_dat0",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 32, 
-          "mode": 7, 
-          "name": "gpio1_0", 
+          "gpio_num": 32,
+          "mode": 7,
+          "name": "gpio1_0",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD1": {
-      "linux_name": "gpmc_ad1", 
+      "linux_name": "gpmc_ad1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad1", 
+          "mode": 0,
+          "name": "gpmc_ad1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat1", 
+          "mode": 1,
+          "name": "mmc1_dat1",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 33, 
-          "mode": 7, 
-          "name": "gpio1_1", 
+          "gpio_num": 33,
+          "mode": 7,
+          "name": "gpio1_1",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD2": {
-      "linux_name": "gpmc_ad2", 
+      "linux_name": "gpmc_ad2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad2", 
+          "mode": 0,
+          "name": "gpmc_ad2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat2", 
+          "mode": 1,
+          "name": "mmc1_dat2",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 34, 
-          "mode": 7, 
-          "name": "gpio1_2", 
+          "gpio_num": 34,
+          "mode": 7,
+          "name": "gpio1_2",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD3": {
-      "linux_name": "gpmc_ad3", 
+      "linux_name": "gpmc_ad3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad3", 
+          "mode": 0,
+          "name": "gpmc_ad3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat3", 
+          "mode": 1,
+          "name": "mmc1_dat3",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 35, 
-          "mode": 7, 
-          "name": "gpio1_3", 
+          "gpio_num": 35,
+          "mode": 7,
+          "name": "gpio1_3",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD4": {
-      "linux_name": "gpmc_ad4", 
+      "linux_name": "gpmc_ad4",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad4", 
+          "mode": 0,
+          "name": "gpmc_ad4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat4", 
+          "mode": 1,
+          "name": "mmc1_dat4",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 36, 
-          "mode": 7, 
-          "name": "gpio1_4", 
+          "gpio_num": 36,
+          "mode": 7,
+          "name": "gpio1_4",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD5": {
-      "linux_name": "gpmc_ad5", 
+      "linux_name": "gpmc_ad5",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad5", 
+          "mode": 0,
+          "name": "gpmc_ad5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat5", 
+          "mode": 1,
+          "name": "mmc1_dat5",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 37, 
-          "mode": 7, 
-          "name": "gpio1_5", 
+          "gpio_num": 37,
+          "mode": 7,
+          "name": "gpio1_5",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD6": {
-      "linux_name": "gpmc_ad6", 
+      "linux_name": "gpmc_ad6",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad6", 
+          "mode": 0,
+          "name": "gpmc_ad6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat6", 
+          "mode": 1,
+          "name": "mmc1_dat6",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 38, 
-          "mode": 7, 
-          "name": "gpio1_6", 
+          "gpio_num": 38,
+          "mode": 7,
+          "name": "gpio1_6",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD7": {
-      "linux_name": "gpmc_ad7", 
+      "linux_name": "gpmc_ad7",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad7", 
+          "mode": 0,
+          "name": "gpmc_ad7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_dat7", 
+          "mode": 1,
+          "name": "mmc1_dat7",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 39, 
-          "mode": 7, 
-          "name": "gpio1_7", 
+          "gpio_num": 39,
+          "mode": 7,
+          "name": "gpio1_7",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD8": {
-      "linux_name": "gpmc_ad8", 
+      "linux_name": "gpmc_ad8",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad8", 
+          "mode": 0,
+          "name": "gpmc_ad8",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data23", 
+          "mode": 1,
+          "name": "lcd_data23",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat0", 
+          "mode": 2,
+          "name": "mmc1_dat0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat4", 
+          "mode": 3,
+          "name": "mmc2_dat4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "ehrpwm2A", 
+          "mode": 4,
+          "name": "ehrpwm2A",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii_mt0_clk", 
+          "mode": 5,
+          "name": "pr1_mii_mt0_clk",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 22, 
-          "mode": 7, 
-          "name": "gpio0_22", 
+          "gpio_num": 22,
+          "mode": 7,
+          "name": "gpio0_22",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD9": {
-      "linux_name": "gpmc_ad9", 
+      "linux_name": "gpmc_ad9",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad9", 
+          "mode": 0,
+          "name": "gpmc_ad9",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data22", 
+          "mode": 1,
+          "name": "lcd_data22",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat1", 
+          "mode": 2,
+          "name": "mmc1_dat1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat5", 
+          "mode": 3,
+          "name": "mmc2_dat5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "ehrpwm2B", 
+          "mode": 4,
+          "name": "ehrpwm2B",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_col", 
+          "mode": 5,
+          "name": "pr1_mii0_col",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 23, 
-          "mode": 7, 
-          "name": "gpio0_23", 
+          "gpio_num": 23,
+          "mode": 7,
+          "name": "gpio0_23",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD10": {
-      "linux_name": "gpmc_ad10", 
+      "linux_name": "gpmc_ad10",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad10", 
+          "mode": 0,
+          "name": "gpmc_ad10",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data21", 
+          "mode": 1,
+          "name": "lcd_data21",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat2", 
+          "mode": 2,
+          "name": "mmc1_dat2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat6", 
+          "mode": 3,
+          "name": "mmc2_dat6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "ehrpwm2_tripzone_input", 
+          "mode": 4,
+          "name": "ehrpwm2_tripzone_input",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_txen", 
+          "mode": 5,
+          "name": "pr1_mii0_txen",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 26, 
-          "mode": 7, 
-          "name": "gpio0_26", 
+          "gpio_num": 26,
+          "mode": 7,
+          "name": "gpio0_26",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD11": {
-      "linux_name": "gpmc_ad11", 
+      "linux_name": "gpmc_ad11",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad11", 
+          "mode": 0,
+          "name": "gpmc_ad11",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data20", 
+          "mode": 1,
+          "name": "lcd_data20",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat3", 
+          "mode": 2,
+          "name": "mmc1_dat3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat7", 
+          "mode": 3,
+          "name": "mmc2_dat7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "ehrpwm0_synco", 
+          "mode": 4,
+          "name": "ehrpwm0_synco",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_txd3", 
+          "mode": 5,
+          "name": "pr1_mii0_txd3",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 27, 
-          "mode": 7, 
-          "name": "gpio0_27", 
+          "gpio_num": 27,
+          "mode": 7,
+          "name": "gpio0_27",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD12": {
-      "linux_name": "gpmc_ad12", 
+      "linux_name": "gpmc_ad12",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad12", 
+          "mode": 0,
+          "name": "gpmc_ad12",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data19", 
+          "mode": 1,
+          "name": "lcd_data19",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat4", 
+          "mode": 2,
+          "name": "mmc1_dat4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat0", 
+          "mode": 3,
+          "name": "mmc2_dat0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "eQEP2A_in", 
+          "mode": 4,
+          "name": "eQEP2A_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_txd2", 
+          "mode": 5,
+          "name": "pr1_mii0_txd2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r30_14", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r30_14",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 44, 
-          "mode": 7, 
-          "name": "gpio1_12", 
+          "gpio_num": 44,
+          "mode": 7,
+          "name": "gpio1_12",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD13": {
-      "linux_name": "gpmc_ad13", 
+      "linux_name": "gpmc_ad13",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad13", 
+          "mode": 0,
+          "name": "gpmc_ad13",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data18", 
+          "mode": 1,
+          "name": "lcd_data18",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat5", 
+          "mode": 2,
+          "name": "mmc1_dat5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat1", 
+          "mode": 3,
+          "name": "mmc2_dat1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "eQEP2B_in", 
+          "mode": 4,
+          "name": "eQEP2B_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_txd1", 
+          "mode": 5,
+          "name": "pr1_mii0_txd1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r30_15", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r30_15",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 45, 
-          "mode": 7, 
-          "name": "gpio1_13", 
+          "gpio_num": 45,
+          "mode": 7,
+          "name": "gpio1_13",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD14": {
-      "linux_name": "gpmc_ad14", 
+      "linux_name": "gpmc_ad14",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad14", 
+          "mode": 0,
+          "name": "gpmc_ad14",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data17", 
+          "mode": 1,
+          "name": "lcd_data17",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat6", 
+          "mode": 2,
+          "name": "mmc1_dat6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat2", 
+          "mode": 3,
+          "name": "mmc2_dat2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "eQEP2_index", 
+          "mode": 4,
+          "name": "eQEP2_index",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_txd0", 
+          "mode": 5,
+          "name": "pr1_mii0_txd0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_14", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_14",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 46, 
-          "mode": 7, 
-          "name": "gpio1_14", 
+          "gpio_num": 46,
+          "mode": 7,
+          "name": "gpio1_14",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_AD15": {
-      "linux_name": "gpmc_ad15", 
+      "linux_name": "gpmc_ad15",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_ad15", 
+          "mode": 0,
+          "name": "gpmc_ad15",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_data16", 
+          "mode": 1,
+          "name": "lcd_data16",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_dat7", 
+          "mode": 2,
+          "name": "mmc1_dat7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat3", 
+          "mode": 3,
+          "name": "mmc2_dat3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "eQEP2_strobe", 
+          "mode": 4,
+          "name": "eQEP2_strobe",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_ecap0_ecap_capin_apwm_o", 
+          "mode": 5,
+          "name": "pr1_ecap0_ecap_capin_apwm_o",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_15", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_15",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 47, 
-          "mode": 7, 
-          "name": "gpio1_15", 
+          "gpio_num": 47,
+          "mode": 7,
+          "name": "gpio1_15",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_ADVn_ALE": {
-      "linux_name": "gpmc_advn_ale", 
+      "linux_name": "gpmc_advn_ale",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_advn_ale", 
+          "mode": 0,
+          "name": "gpmc_advn_ale",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "timer4", 
+          "mode": 2,
+          "name": "timer4",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 66, 
-          "mode": 7, 
-          "name": "gpio2_2", 
+          "gpio_num": 66,
+          "mode": 7,
+          "name": "gpio2_2",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_BEn0_CLE": {
-      "linux_name": "gpmc_ben0_cle", 
+      "linux_name": "gpmc_ben0_cle",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_be0n_cle", 
+          "mode": 0,
+          "name": "gpmc_be0n_cle",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "timer5", 
+          "mode": 2,
+          "name": "timer5",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 69, 
-          "mode": 7, 
-          "name": "gpio2_5", 
+          "gpio_num": 69,
+          "mode": 7,
+          "name": "gpio2_5",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_BEn1": {
-      "linux_name": "gpmc_ben1", 
+      "linux_name": "gpmc_ben1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_be1n", 
+          "mode": 0,
+          "name": "gpmc_be1n",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_col", 
+          "mode": 1,
+          "name": "gmii2_col",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "gpmc_csn6", 
+          "mode": 2,
+          "name": "gpmc_csn6",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_dat3", 
+          "mode": 3,
+          "name": "mmc2_dat3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "gpmc_dir", 
+          "mode": 4,
+          "name": "gpmc_dir",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_rxlink", 
+          "mode": 5,
+          "name": "pr1_mii1_rxlink",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_aclkr", 
+          "mode": 6,
+          "name": "mcasp0_aclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 60, 
-          "mode": 7, 
-          "name": "gpio1_28", 
+          "gpio_num": 60,
+          "mode": 7,
+          "name": "gpio1_28",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_CLK": {
-      "linux_name": "gpmc_clk", 
+      "linux_name": "gpmc_clk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_clk", 
+          "mode": 0,
+          "name": "gpmc_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_memory_clk", 
+          "mode": 1,
+          "name": "lcd_memory_clk",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "gpmc_wait1", 
+          "mode": 2,
+          "name": "gpmc_wait1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_clk", 
+          "mode": 3,
+          "name": "mmc2_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_mii1_crs", 
+          "mode": 4,
+          "name": "pr1_mii1_crs",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mdio_mdclk", 
+          "mode": 5,
+          "name": "pr1_mdio_mdclk",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_fsr", 
+          "mode": 6,
+          "name": "mcasp0_fsr",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 65, 
-          "mode": 7, 
-          "name": "gpio2_1", 
+          "gpio_num": 65,
+          "mode": 7,
+          "name": "gpio2_1",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_CSn0": {
-      "linux_name": "gpmc_csn0", 
+      "linux_name": "gpmc_csn0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_csn0", 
+          "mode": 0,
+          "name": "gpmc_csn0",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 61, 
-          "mode": 7, 
-          "name": "gpio1_29", 
+          "gpio_num": 61,
+          "mode": 7,
+          "name": "gpio1_29",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_CSn1": {
-      "linux_name": "gpmc_csn1", 
+      "linux_name": "gpmc_csn1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_csn1", 
+          "mode": 0,
+          "name": "gpmc_csn1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_clk", 
+          "mode": 1,
+          "name": "gpmc_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_clk", 
+          "mode": 2,
+          "name": "mmc1_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "pr1_edio_data_in6", 
+          "mode": 3,
+          "name": "pr1_edio_data_in6",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out6", 
+          "mode": 4,
+          "name": "pr1_edio_data_out6",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_12", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_12",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_12", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_12",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 62, 
-          "mode": 7, 
-          "name": "gpio1_30", 
+          "gpio_num": 62,
+          "mode": 7,
+          "name": "gpio1_30",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_CSn2": {
-      "linux_name": "gpmc_csn2", 
+      "linux_name": "gpmc_csn2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_csn2", 
+          "mode": 0,
+          "name": "gpmc_csn2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_be1n", 
+          "mode": 1,
+          "name": "gpmc_be1n",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mmc1_cmd", 
+          "mode": 2,
+          "name": "mmc1_cmd",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "pr1_edio_data_in7", 
+          "mode": 3,
+          "name": "pr1_edio_data_in7",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out7", 
+          "mode": 4,
+          "name": "pr1_edio_data_out7",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_13", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_13",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_13", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_13",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 63, 
-          "mode": 7, 
-          "name": "gpio1_31", 
+          "gpio_num": 63,
+          "mode": 7,
+          "name": "gpio1_31",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_CSn3": {
-      "linux_name": "gpmc_csn3", 
+      "linux_name": "gpmc_csn3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_csn3", 
+          "mode": 0,
+          "name": "gpmc_csn3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc2_cmd", 
+          "mode": 3,
+          "name": "mmc2_cmd",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_mii0_crs", 
+          "mode": 4,
+          "name": "pr1_mii0_crs",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mdio_data", 
+          "mode": 5,
+          "name": "pr1_mdio_data",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "EMU4", 
+          "mode": 6,
+          "name": "EMU4",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 64, 
-          "mode": 7, 
-          "name": "gpio2_0", 
+          "gpio_num": 64,
+          "mode": 7,
+          "name": "gpio2_0",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_OEn_REn": {
-      "linux_name": "gpmc_oen_ren", 
+      "linux_name": "gpmc_oen_ren",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_oen_ren", 
+          "mode": 0,
+          "name": "gpmc_oen_ren",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "timer7", 
+          "mode": 2,
+          "name": "timer7",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 67, 
-          "mode": 7, 
-          "name": "gpio2_3", 
+          "gpio_num": 67,
+          "mode": 7,
+          "name": "gpio2_3",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_WAIT0": {
-      "linux_name": "gpmc_wait0", 
+      "linux_name": "gpmc_wait0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_wait0", 
+          "mode": 0,
+          "name": "gpmc_wait0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_crs", 
+          "mode": 1,
+          "name": "gmii2_crs",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "gpmc_csn4", 
+          "mode": 2,
+          "name": "gpmc_csn4",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "rmii2_crs_dv", 
+          "mode": 3,
+          "name": "rmii2_crs_dv",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc1_sdcd", 
+          "mode": 4,
+          "name": "mmc1_sdcd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_col", 
+          "mode": 5,
+          "name": "pr1_mii1_col",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart4_rxd", 
+          "mode": 6,
+          "name": "uart4_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 30, 
-          "mode": 7, 
-          "name": "gpio0_30", 
+          "gpio_num": 30,
+          "mode": 7,
+          "name": "gpio0_30",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_WEn": {
-      "linux_name": "gpmc_wen", 
+      "linux_name": "gpmc_wen",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_wen", 
+          "mode": 0,
+          "name": "gpmc_wen",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "timer6", 
+          "mode": 2,
+          "name": "timer6",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 68, 
-          "mode": 7, 
-          "name": "gpio2_4", 
+          "gpio_num": 68,
+          "mode": 7,
+          "name": "gpio2_4",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "GPMC_WPn": {
-      "linux_name": "gpmc_wpn", 
+      "linux_name": "gpmc_wpn",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gpmc_wpn", 
+          "mode": 0,
+          "name": "gpmc_wpn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gmii2_rxerr", 
+          "mode": 1,
+          "name": "gmii2_rxerr",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "gpmc_csn5", 
+          "mode": 2,
+          "name": "gpmc_csn5",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "rmii2_rxerr", 
+          "mode": 3,
+          "name": "rmii2_rxerr",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc2_sdcd", 
+          "mode": 4,
+          "name": "mmc2_sdcd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii1_txen", 
+          "mode": 5,
+          "name": "pr1_mii1_txen",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart4_txd", 
+          "mode": 6,
+          "name": "uart4_txd",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 31, 
-          "mode": 7, 
-          "name": "gpio0_31", 
+          "gpio_num": 31,
+          "mode": 7,
+          "name": "gpio0_31",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "I2C0_SCL": {
-      "linux_name": "i2c0_scl", 
+      "linux_name": "i2c0_scl",
       "signals": [
         {
-          "mode": 0, 
-          "name": "I2C0_SCL", 
+          "mode": 0,
+          "name": "I2C0_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "timer7", 
+          "mode": 1,
+          "name": "timer7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart2_rtsn", 
+          "mode": 2,
+          "name": "uart2_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "eCAP1_in_PWM1_out", 
+          "mode": 3,
+          "name": "eCAP1_in_PWM1_out",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 102, 
-          "mode": 7, 
-          "name": "gpio3_6", 
+          "gpio_num": 102,
+          "mode": 7,
+          "name": "gpio3_6",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "I2C0_SDA": {
-      "linux_name": "i2c0_sda", 
+      "linux_name": "i2c0_sda",
       "signals": [
         {
-          "mode": 0, 
-          "name": "I2C0_SDA", 
+          "mode": 0,
+          "name": "I2C0_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "timer4", 
+          "mode": 1,
+          "name": "timer4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart2_ctsn", 
+          "mode": 2,
+          "name": "uart2_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "eCAP2_in_PWM2_out", 
+          "mode": 3,
+          "name": "eCAP2_in_PWM2_out",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 101, 
-          "mode": 7, 
-          "name": "gpio3_5", 
+          "gpio_num": 101,
+          "mode": 7,
+          "name": "gpio3_5",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_AC_BIAS_EN": {
-      "linux_name": "lcd_ac_bias_en", 
+      "linux_name": "lcd_ac_bias_en",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_ac_bias_en", 
+          "mode": 0,
+          "name": "lcd_ac_bias_en",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a11", 
+          "mode": 1,
+          "name": "gpmc_a11",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii1_crs", 
+          "mode": 2,
+          "name": "pr1_mii1_crs",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "pr1_edio_data_in5", 
+          "mode": 3,
+          "name": "pr1_edio_data_in5",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out5", 
+          "mode": 4,
+          "name": "pr1_edio_data_out5",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_11", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_11",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_11", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_11",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 89, 
-          "mode": 7, 
-          "name": "gpio2_25", 
+          "gpio_num": 89,
+          "mode": 7,
+          "name": "gpio2_25",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA0": {
-      "linux_name": "lcd_data0", 
+      "linux_name": "lcd_data0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data0", 
+          "mode": 0,
+          "name": "lcd_data0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a0", 
+          "mode": 1,
+          "name": "gpmc_a0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii_mt0_clk", 
+          "mode": 2,
+          "name": "pr1_mii_mt0_clk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm2A", 
+          "mode": 3,
+          "name": "ehrpwm2A",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_0", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_0", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_0",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 70, 
-          "mode": 7, 
-          "name": "gpio2_6", 
+          "gpio_num": 70,
+          "mode": 7,
+          "name": "gpio2_6",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA1": {
-      "linux_name": "lcd_data1", 
+      "linux_name": "lcd_data1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data1", 
+          "mode": 0,
+          "name": "lcd_data1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a1", 
+          "mode": 1,
+          "name": "gpmc_a1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii0_txen", 
+          "mode": 2,
+          "name": "pr1_mii0_txen",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm2B", 
+          "mode": 3,
+          "name": "ehrpwm2B",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_1", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_1", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_1",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 71, 
-          "mode": 7, 
-          "name": "gpio2_7", 
+          "gpio_num": 71,
+          "mode": 7,
+          "name": "gpio2_7",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA2": {
-      "linux_name": "lcd_data2", 
+      "linux_name": "lcd_data2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data2", 
+          "mode": 0,
+          "name": "lcd_data2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a2", 
+          "mode": 1,
+          "name": "gpmc_a2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii0_txd3", 
+          "mode": 2,
+          "name": "pr1_mii0_txd3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm2_tripzone_input", 
+          "mode": 3,
+          "name": "ehrpwm2_tripzone_input",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_2", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_2", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_2",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 72, 
-          "mode": 7, 
-          "name": "gpio2_8", 
+          "gpio_num": 72,
+          "mode": 7,
+          "name": "gpio2_8",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA3": {
-      "linux_name": "lcd_data3", 
+      "linux_name": "lcd_data3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data3", 
+          "mode": 0,
+          "name": "lcd_data3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a3", 
+          "mode": 1,
+          "name": "gpmc_a3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii0_txd2", 
+          "mode": 2,
+          "name": "pr1_mii0_txd2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm0_synco", 
+          "mode": 3,
+          "name": "ehrpwm0_synco",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_3", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_3", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_3",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 73, 
-          "mode": 7, 
-          "name": "gpio2_9", 
+          "gpio_num": 73,
+          "mode": 7,
+          "name": "gpio2_9",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA4": {
-      "linux_name": "lcd_data4", 
+      "linux_name": "lcd_data4",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data4", 
+          "mode": 0,
+          "name": "lcd_data4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a4", 
+          "mode": 1,
+          "name": "gpmc_a4",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii0_txd1", 
+          "mode": 2,
+          "name": "pr1_mii0_txd1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "eQEP2A_in", 
+          "mode": 3,
+          "name": "eQEP2A_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_4", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_4",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_4", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_4",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 74, 
-          "mode": 7, 
-          "name": "gpio2_10", 
+          "gpio_num": 74,
+          "mode": 7,
+          "name": "gpio2_10",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA5": {
-      "linux_name": "lcd_data5", 
+      "linux_name": "lcd_data5",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data5", 
+          "mode": 0,
+          "name": "lcd_data5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a5", 
+          "mode": 1,
+          "name": "gpmc_a5",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii0_txd0", 
+          "mode": 2,
+          "name": "pr1_mii0_txd0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "eQEP2B_in", 
+          "mode": 3,
+          "name": "eQEP2B_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_5", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_5",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_5", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_5",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 75, 
-          "mode": 7, 
-          "name": "gpio2_11", 
+          "gpio_num": 75,
+          "mode": 7,
+          "name": "gpio2_11",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA6": {
-      "linux_name": "lcd_data6", 
+      "linux_name": "lcd_data6",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data6", 
+          "mode": 0,
+          "name": "lcd_data6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a6", 
+          "mode": 1,
+          "name": "gpmc_a6",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_edio_data_in6", 
+          "mode": 2,
+          "name": "pr1_edio_data_in6",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "eQEP2_index", 
+          "mode": 3,
+          "name": "eQEP2_index",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out6", 
+          "mode": 4,
+          "name": "pr1_edio_data_out6",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_6", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_6",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_6", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_6",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 76, 
-          "mode": 7, 
-          "name": "gpio2_12", 
+          "gpio_num": 76,
+          "mode": 7,
+          "name": "gpio2_12",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA7": {
-      "linux_name": "lcd_data7", 
+      "linux_name": "lcd_data7",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data7", 
+          "mode": 0,
+          "name": "lcd_data7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a7", 
+          "mode": 1,
+          "name": "gpmc_a7",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_edio_data_in7", 
+          "mode": 2,
+          "name": "pr1_edio_data_in7",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "eQEP2_strobe", 
+          "mode": 3,
+          "name": "eQEP2_strobe",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out7", 
+          "mode": 4,
+          "name": "pr1_edio_data_out7",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_7", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_7",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_7", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_7",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 77, 
-          "mode": 7, 
-          "name": "gpio2_13", 
+          "gpio_num": 77,
+          "mode": 7,
+          "name": "gpio2_13",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA8": {
-      "linux_name": "lcd_data8", 
+      "linux_name": "lcd_data8",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data8", 
+          "mode": 0,
+          "name": "lcd_data8",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a12", 
+          "mode": 1,
+          "name": "gpmc_a12",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "ehrpwm1_tripzone_input", 
+          "mode": 2,
+          "name": "ehrpwm1_tripzone_input",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_aclkx", 
+          "mode": 3,
+          "name": "mcasp0_aclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "uart5_txd", 
+          "mode": 4,
+          "name": "uart5_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_rxd3", 
+          "mode": 5,
+          "name": "pr1_mii0_rxd3",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart2_ctsn", 
+          "mode": 6,
+          "name": "uart2_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 78, 
-          "mode": 7, 
-          "name": "gpio2_14", 
+          "gpio_num": 78,
+          "mode": 7,
+          "name": "gpio2_14",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA9": {
-      "linux_name": "lcd_data9", 
+      "linux_name": "lcd_data9",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data9", 
+          "mode": 0,
+          "name": "lcd_data9",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a13", 
+          "mode": 1,
+          "name": "gpmc_a13",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "ehrpwm0_synco", 
+          "mode": 2,
+          "name": "ehrpwm0_synco",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_fsx", 
+          "mode": 3,
+          "name": "mcasp0_fsx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "uart5_rxd", 
+          "mode": 4,
+          "name": "uart5_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_rxd2", 
+          "mode": 5,
+          "name": "pr1_mii0_rxd2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart2_rtsn", 
+          "mode": 6,
+          "name": "uart2_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 79, 
-          "mode": 7, 
-          "name": "gpio2_15", 
+          "gpio_num": 79,
+          "mode": 7,
+          "name": "gpio2_15",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA10": {
-      "linux_name": "lcd_data10", 
+      "linux_name": "lcd_data10",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data10", 
+          "mode": 0,
+          "name": "lcd_data10",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a14", 
+          "mode": 1,
+          "name": "gpmc_a14",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "ehrpwm1A", 
+          "mode": 2,
+          "name": "ehrpwm1A",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_axr0", 
+          "mode": 3,
+          "name": "mcasp0_axr0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_rxd1", 
+          "mode": 5,
+          "name": "pr1_mii0_rxd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart3_ctsn", 
+          "mode": 6,
+          "name": "uart3_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 80, 
-          "mode": 7, 
-          "name": "gpio2_16", 
+          "gpio_num": 80,
+          "mode": 7,
+          "name": "gpio2_16",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA11": {
-      "linux_name": "lcd_data11", 
+      "linux_name": "lcd_data11",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data11", 
+          "mode": 0,
+          "name": "lcd_data11",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a15", 
+          "mode": 1,
+          "name": "gpmc_a15",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "ehrpwm1B", 
+          "mode": 2,
+          "name": "ehrpwm1B",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_ahclkr", 
+          "mode": 3,
+          "name": "mcasp0_ahclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp0_axr2", 
+          "mode": 4,
+          "name": "mcasp0_axr2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_rxd0", 
+          "mode": 5,
+          "name": "pr1_mii0_rxd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart3_rtsn", 
+          "mode": 6,
+          "name": "uart3_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 81, 
-          "mode": 7, 
-          "name": "gpio2_17", 
+          "gpio_num": 81,
+          "mode": 7,
+          "name": "gpio2_17",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA12": {
-      "linux_name": "lcd_data12", 
+      "linux_name": "lcd_data12",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data12", 
+          "mode": 0,
+          "name": "lcd_data12",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a16", 
+          "mode": 1,
+          "name": "gpmc_a16",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "eQEP1A_in", 
+          "mode": 2,
+          "name": "eQEP1A_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_aclkr", 
+          "mode": 3,
+          "name": "mcasp0_aclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp0_axr2", 
+          "mode": 4,
+          "name": "mcasp0_axr2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_rxlink", 
+          "mode": 5,
+          "name": "pr1_mii0_rxlink",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart4_ctsn", 
+          "mode": 6,
+          "name": "uart4_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 8, 
-          "mode": 7, 
-          "name": "gpio0_8", 
+          "gpio_num": 8,
+          "mode": 7,
+          "name": "gpio0_8",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA13": {
-      "linux_name": "lcd_data13", 
+      "linux_name": "lcd_data13",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data13", 
+          "mode": 0,
+          "name": "lcd_data13",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a17", 
+          "mode": 1,
+          "name": "gpmc_a17",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "eQEP1B_in", 
+          "mode": 2,
+          "name": "eQEP1B_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_fsr", 
+          "mode": 3,
+          "name": "mcasp0_fsr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp0_axr3", 
+          "mode": 4,
+          "name": "mcasp0_axr3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_rxer", 
+          "mode": 5,
+          "name": "pr1_mii0_rxer",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart4_rtsn", 
+          "mode": 6,
+          "name": "uart4_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 9, 
-          "mode": 7, 
-          "name": "gpio0_9", 
+          "gpio_num": 9,
+          "mode": 7,
+          "name": "gpio0_9",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA14": {
-      "linux_name": "lcd_data14", 
+      "linux_name": "lcd_data14",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data14", 
+          "mode": 0,
+          "name": "lcd_data14",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a18", 
+          "mode": 1,
+          "name": "gpmc_a18",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "eQEP1_index", 
+          "mode": 2,
+          "name": "eQEP1_index",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_axr1", 
+          "mode": 3,
+          "name": "mcasp0_axr1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "uart5_rxd", 
+          "mode": 4,
+          "name": "uart5_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii_mr0_clk", 
+          "mode": 5,
+          "name": "pr1_mii_mr0_clk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart5_ctsn", 
+          "mode": 6,
+          "name": "uart5_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 10, 
-          "mode": 7, 
-          "name": "gpio0_10", 
+          "gpio_num": 10,
+          "mode": 7,
+          "name": "gpio0_10",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_DATA15": {
-      "linux_name": "lcd_data15", 
+      "linux_name": "lcd_data15",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_data15", 
+          "mode": 0,
+          "name": "lcd_data15",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a19", 
+          "mode": 1,
+          "name": "gpmc_a19",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "eQEP1_strobe", 
+          "mode": 2,
+          "name": "eQEP1_strobe",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp0_ahclkx", 
+          "mode": 3,
+          "name": "mcasp0_ahclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp0_axr3", 
+          "mode": 4,
+          "name": "mcasp0_axr3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_mii0_rxdv", 
+          "mode": 5,
+          "name": "pr1_mii0_rxdv",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart5_rtsn", 
+          "mode": 6,
+          "name": "uart5_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 11, 
-          "mode": 7, 
-          "name": "gpio0_11", 
+          "gpio_num": 11,
+          "mode": 7,
+          "name": "gpio0_11",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_HSYNC": {
-      "linux_name": "lcd_hsync", 
+      "linux_name": "lcd_hsync",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_hsync", 
+          "mode": 0,
+          "name": "lcd_hsync",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a9", 
+          "mode": 1,
+          "name": "gpmc_a9",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "pr1_edio_data_in3", 
+          "mode": 3,
+          "name": "pr1_edio_data_in3",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out3", 
+          "mode": 4,
+          "name": "pr1_edio_data_out3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_9", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_9",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_9", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_9",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 87, 
-          "mode": 7, 
-          "name": "gpio2_23", 
+          "gpio_num": 87,
+          "mode": 7,
+          "name": "gpio2_23",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_PCLK": {
-      "linux_name": "lcd_pclk", 
+      "linux_name": "lcd_pclk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_pclk", 
+          "mode": 0,
+          "name": "lcd_pclk",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a10", 
+          "mode": 1,
+          "name": "gpmc_a10",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "pr1_mii0_crs", 
+          "mode": 2,
+          "name": "pr1_mii0_crs",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "pr1_edio_data_in4", 
+          "mode": 3,
+          "name": "pr1_edio_data_in4",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out4", 
+          "mode": 4,
+          "name": "pr1_edio_data_out4",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_10", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_10",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_10", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_10",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 88, 
-          "mode": 7, 
-          "name": "gpio2_24", 
+          "gpio_num": 88,
+          "mode": 7,
+          "name": "gpio2_24",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "LCD_VSYNC": {
-      "linux_name": "lcd_vsync", 
+      "linux_name": "lcd_vsync",
       "signals": [
         {
-          "mode": 0, 
-          "name": "lcd_vsync", 
+          "mode": 0,
+          "name": "lcd_vsync",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a8", 
+          "mode": 1,
+          "name": "gpmc_a8",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "pr1_edio_data_in2", 
+          "mode": 3,
+          "name": "pr1_edio_data_in2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_edio_data_out2", 
+          "mode": 4,
+          "name": "pr1_edio_data_out2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_8", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_8",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_8", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_8",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 86, 
-          "mode": 7, 
-          "name": "gpio2_22", 
+          "gpio_num": 86,
+          "mode": 7,
+          "name": "gpio2_22",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_ACLKR": {
-      "linux_name": "mcasp0_aclkr", 
+      "linux_name": "mcasp0_aclkr",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_aclkr", 
+          "mode": 0,
+          "name": "mcasp0_aclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "eQEP0A_in", 
+          "mode": 1,
+          "name": "eQEP0A_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mcasp0_axr2", 
+          "mode": 2,
+          "name": "mcasp0_axr2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_aclkx", 
+          "mode": 3,
+          "name": "mcasp1_aclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc0_sdwp", 
+          "mode": 4,
+          "name": "mmc0_sdwp",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_4", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_4",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_4", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_4",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 114, 
-          "mode": 7, 
-          "name": "gpio3_18", 
+          "gpio_num": 114,
+          "mode": 7,
+          "name": "gpio3_18",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_ACLKX": {
-      "linux_name": "mcasp0_aclkx", 
+      "linux_name": "mcasp0_aclkx",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_aclkx", 
+          "mode": 0,
+          "name": "mcasp0_aclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "ehrpwm0A", 
+          "mode": 1,
+          "name": "ehrpwm0A",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "spi1_sclk", 
+          "mode": 3,
+          "name": "spi1_sclk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc0_sdcd", 
+          "mode": 4,
+          "name": "mmc0_sdcd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_0", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_0", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_0",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 110, 
-          "mode": 7, 
-          "name": "gpio3_14", 
+          "gpio_num": 110,
+          "mode": 7,
+          "name": "gpio3_14",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_AHCLKR": {
-      "linux_name": "mcasp0_ahclkr", 
+      "linux_name": "mcasp0_ahclkr",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_ahclkr", 
+          "mode": 0,
+          "name": "mcasp0_ahclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "ehrpwm0_synci", 
+          "mode": 1,
+          "name": "ehrpwm0_synci",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mcasp0_axr2", 
+          "mode": 2,
+          "name": "mcasp0_axr2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "spi1_cs0", 
+          "mode": 3,
+          "name": "spi1_cs0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "eCAP2_in_PWM2_out", 
+          "mode": 4,
+          "name": "eCAP2_in_PWM2_out",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_3", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_3", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_3",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 113, 
-          "mode": 7, 
-          "name": "gpio3_17", 
+          "gpio_num": 113,
+          "mode": 7,
+          "name": "gpio3_17",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_AHCLKX": {
-      "linux_name": "mcasp0_ahclkx", 
+      "linux_name": "mcasp0_ahclkx",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_ahclkx", 
+          "mode": 0,
+          "name": "mcasp0_ahclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "eQEP0_strobe", 
+          "mode": 1,
+          "name": "eQEP0_strobe",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mcasp0_axr3", 
+          "mode": 2,
+          "name": "mcasp0_axr3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_axr1", 
+          "mode": 3,
+          "name": "mcasp1_axr1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "EMU4", 
+          "mode": 4,
+          "name": "EMU4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_7", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_7",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_7", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_7",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 117, 
-          "mode": 7, 
-          "name": "gpio3_21", 
+          "gpio_num": 117,
+          "mode": 7,
+          "name": "gpio3_21",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_AXR0": {
-      "linux_name": "mcasp0_axr0", 
+      "linux_name": "mcasp0_axr0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_axr0", 
+          "mode": 0,
+          "name": "mcasp0_axr0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "ehrpwm0_tripzone_input", 
+          "mode": 1,
+          "name": "ehrpwm0_tripzone_input",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "spi1_d1", 
+          "mode": 3,
+          "name": "spi1_d1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc2_sdcd", 
+          "mode": 4,
+          "name": "mmc2_sdcd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_2", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_2", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_2",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 112, 
-          "mode": 7, 
-          "name": "gpio3_16", 
+          "gpio_num": 112,
+          "mode": 7,
+          "name": "gpio3_16",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_AXR1": {
-      "linux_name": "mcasp0_axr1", 
+      "linux_name": "mcasp0_axr1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_axr1", 
+          "mode": 0,
+          "name": "mcasp0_axr1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "eQEP0_index", 
+          "mode": 1,
+          "name": "eQEP0_index",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_axr0", 
+          "mode": 3,
+          "name": "mcasp1_axr0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "EMU3", 
+          "mode": 4,
+          "name": "EMU3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_6", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_6",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_6", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_6",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 116, 
-          "mode": 7, 
-          "name": "gpio3_20", 
+          "gpio_num": 116,
+          "mode": 7,
+          "name": "gpio3_20",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_FSR": {
-      "linux_name": "mcasp0_fsr", 
+      "linux_name": "mcasp0_fsr",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_fsr", 
+          "mode": 0,
+          "name": "mcasp0_fsr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "eQEP0B_in", 
+          "mode": 1,
+          "name": "eQEP0B_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "mcasp0_axr3", 
+          "mode": 2,
+          "name": "mcasp0_axr3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_fsx", 
+          "mode": 3,
+          "name": "mcasp1_fsx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "EMU2", 
+          "mode": 4,
+          "name": "EMU2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_5", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_5",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_5", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_5",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 115, 
-          "mode": 7, 
-          "name": "gpio3_19", 
+          "gpio_num": 115,
+          "mode": 7,
+          "name": "gpio3_19",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MCASP0_FSX": {
-      "linux_name": "mcasp0_fsx", 
+      "linux_name": "mcasp0_fsx",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mcasp0_fsx", 
+          "mode": 0,
+          "name": "mcasp0_fsx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "ehrpwm0B", 
+          "mode": 1,
+          "name": "ehrpwm0B",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "spi1_d0", 
+          "mode": 3,
+          "name": "spi1_d0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc1_sdcd", 
+          "mode": 4,
+          "name": "mmc1_sdcd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_1", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_1", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_1",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 111, 
-          "mode": 7, 
-          "name": "gpio3_15", 
+          "gpio_num": 111,
+          "mode": 7,
+          "name": "gpio3_15",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MDC": {
-      "linux_name": "mdio_clk", 
+      "linux_name": "mdio_clk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mdio_clk", 
+          "mode": 0,
+          "name": "mdio_clk",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "timer5", 
+          "mode": 1,
+          "name": "timer5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart5_txd", 
+          "mode": 2,
+          "name": "uart5_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart3_rtsn", 
+          "mode": 3,
+          "name": "uart3_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc0_sdwp", 
+          "mode": 4,
+          "name": "mmc0_sdwp",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc1_clk", 
+          "mode": 5,
+          "name": "mmc1_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mmc2_clk", 
+          "mode": 6,
+          "name": "mmc2_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 1, 
-          "mode": 7, 
-          "name": "gpio0_1", 
+          "gpio_num": 1,
+          "mode": 7,
+          "name": "gpio0_1",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MDIO": {
-      "linux_name": "mdio_data", 
+      "linux_name": "mdio_data",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mdio_data", 
+          "mode": 0,
+          "name": "mdio_data",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "timer6", 
+          "mode": 1,
+          "name": "timer6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart5_rxd", 
+          "mode": 2,
+          "name": "uart5_rxd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart3_ctsn", 
+          "mode": 3,
+          "name": "uart3_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc0_sdcd", 
+          "mode": 4,
+          "name": "mmc0_sdcd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc1_cmd", 
+          "mode": 5,
+          "name": "mmc1_cmd",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mmc2_cmd", 
+          "mode": 6,
+          "name": "mmc2_cmd",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 0, 
-          "mode": 7, 
-          "name": "gpio0_0", 
+          "gpio_num": 0,
+          "mode": 7,
+          "name": "gpio0_0",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_COL": {
-      "linux_name": "mii1_col", 
+      "linux_name": "mii1_col",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_col", 
+          "mode": 0,
+          "name": "gmii1_col",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii2_refclk", 
+          "mode": 1,
+          "name": "rmii2_refclk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "spi1_sclk", 
+          "mode": 2,
+          "name": "spi1_sclk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart5_rxd", 
+          "mode": 3,
+          "name": "uart5_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_axr2", 
+          "mode": 4,
+          "name": "mcasp1_axr2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc2_dat3", 
+          "mode": 5,
+          "name": "mmc2_dat3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_axr2", 
+          "mode": 6,
+          "name": "mcasp0_axr2",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 96, 
-          "mode": 7, 
-          "name": "gpio3_0", 
+          "gpio_num": 96,
+          "mode": 7,
+          "name": "gpio3_0",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_CRS": {
-      "linux_name": "mii1_crs", 
+      "linux_name": "mii1_crs",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_crs", 
+          "mode": 0,
+          "name": "gmii1_crs",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii1_crs_dv", 
+          "mode": 1,
+          "name": "rmii1_crs_dv",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "spi1_d0", 
+          "mode": 2,
+          "name": "spi1_d0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C1_SDA", 
+          "mode": 3,
+          "name": "I2C1_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_aclkx", 
+          "mode": 4,
+          "name": "mcasp1_aclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "uart5_ctsn", 
+          "mode": 5,
+          "name": "uart5_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart2_rxd", 
+          "mode": 6,
+          "name": "uart2_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 97, 
-          "mode": 7, 
-          "name": "gpio3_1", 
+          "gpio_num": 97,
+          "mode": 7,
+          "name": "gpio3_1",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_RXD0": {
-      "linux_name": "mii1_rxd0", 
+      "linux_name": "mii1_rxd0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_rxd0", 
+          "mode": 0,
+          "name": "gmii1_rxd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii1_rxd0", 
+          "mode": 1,
+          "name": "rmii1_rxd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_rd0", 
+          "mode": 2,
+          "name": "rgmii1_rd0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_ahclkx", 
+          "mode": 3,
+          "name": "mcasp1_ahclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_ahclkr", 
+          "mode": 4,
+          "name": "mcasp1_ahclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mcasp1_aclkr", 
+          "mode": 5,
+          "name": "mcasp1_aclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_axr3", 
+          "mode": 6,
+          "name": "mcasp0_axr3",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 85, 
-          "mode": 7, 
-          "name": "gpio2_21", 
+          "gpio_num": 85,
+          "mode": 7,
+          "name": "gpio2_21",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_RXD1": {
-      "linux_name": "mii1_rxd1", 
+      "linux_name": "mii1_rxd1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_rxd1", 
+          "mode": 0,
+          "name": "gmii1_rxd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii1_rxd1", 
+          "mode": 1,
+          "name": "rmii1_rxd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_rd1", 
+          "mode": 2,
+          "name": "rgmii1_rd1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_axr3", 
+          "mode": 3,
+          "name": "mcasp1_axr3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_fsr", 
+          "mode": 4,
+          "name": "mcasp1_fsr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "eQEP0_strobe", 
+          "mode": 5,
+          "name": "eQEP0_strobe",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mmc2_clk", 
+          "mode": 6,
+          "name": "mmc2_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 84, 
-          "mode": 7, 
-          "name": "gpio2_20", 
+          "gpio_num": 84,
+          "mode": 7,
+          "name": "gpio2_20",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_RXD2": {
-      "linux_name": "mii1_rxd2", 
+      "linux_name": "mii1_rxd2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_rxd2", 
+          "mode": 0,
+          "name": "gmii1_rxd2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart3_txd", 
+          "mode": 1,
+          "name": "uart3_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_rd2", 
+          "mode": 2,
+          "name": "rgmii1_rd2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc0_dat4", 
+          "mode": 3,
+          "name": "mmc0_dat4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc1_dat3", 
+          "mode": 4,
+          "name": "mmc1_dat3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "uart1_rin", 
+          "mode": 5,
+          "name": "uart1_rin",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_axr1", 
+          "mode": 6,
+          "name": "mcasp0_axr1",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 83, 
-          "mode": 7, 
-          "name": "gpio2_19", 
+          "gpio_num": 83,
+          "mode": 7,
+          "name": "gpio2_19",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_RXD3": {
-      "linux_name": "mii1_rxd3", 
+      "linux_name": "mii1_rxd3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_rxd3", 
+          "mode": 0,
+          "name": "gmii1_rxd3",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart3_rxd", 
+          "mode": 1,
+          "name": "uart3_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_rd3", 
+          "mode": 2,
+          "name": "rgmii1_rd3",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc0_dat5", 
+          "mode": 3,
+          "name": "mmc0_dat5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc1_dat2", 
+          "mode": 4,
+          "name": "mmc1_dat2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "uart1_dtrn", 
+          "mode": 5,
+          "name": "uart1_dtrn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_axr0", 
+          "mode": 6,
+          "name": "mcasp0_axr0",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 82, 
-          "mode": 7, 
-          "name": "gpio2_18", 
+          "gpio_num": 82,
+          "mode": 7,
+          "name": "gpio2_18",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_RX_CLK": {
-      "linux_name": "mii1_rxclk", 
+      "linux_name": "mii1_rxclk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_rxclk", 
+          "mode": 0,
+          "name": "gmii1_rxclk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart2_txd", 
+          "mode": 1,
+          "name": "uart2_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_rclk", 
+          "mode": 2,
+          "name": "rgmii1_rclk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc0_dat6", 
+          "mode": 3,
+          "name": "mmc0_dat6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc1_dat1", 
+          "mode": 4,
+          "name": "mmc1_dat1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "uart1_dsrn", 
+          "mode": 5,
+          "name": "uart1_dsrn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_fsx", 
+          "mode": 6,
+          "name": "mcasp0_fsx",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 106, 
-          "mode": 7, 
-          "name": "gpio3_10", 
+          "gpio_num": 106,
+          "mode": 7,
+          "name": "gpio3_10",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_RX_DV": {
-      "linux_name": "mii1_rxdv", 
+      "linux_name": "mii1_rxdv",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_rxdv", 
+          "mode": 0,
+          "name": "gmii1_rxdv",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "lcd_memory_clk", 
+          "mode": 1,
+          "name": "lcd_memory_clk",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_rctl", 
+          "mode": 2,
+          "name": "rgmii1_rctl",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart5_txd", 
+          "mode": 3,
+          "name": "uart5_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_aclkx", 
+          "mode": 4,
+          "name": "mcasp1_aclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc2_dat0", 
+          "mode": 5,
+          "name": "mmc2_dat0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_aclkr", 
+          "mode": 6,
+          "name": "mcasp0_aclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 100, 
-          "mode": 7, 
-          "name": "gpio3_4", 
+          "gpio_num": 100,
+          "mode": 7,
+          "name": "gpio3_4",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_RX_ER": {
-      "linux_name": "mii1_rxerr", 
+      "linux_name": "mii1_rxerr",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_rxerr", 
+          "mode": 0,
+          "name": "gmii1_rxerr",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii1_rxerr", 
+          "mode": 1,
+          "name": "rmii1_rxerr",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "spi1_d1", 
+          "mode": 2,
+          "name": "spi1_d1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C1_SCL", 
+          "mode": 3,
+          "name": "I2C1_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_fsx", 
+          "mode": 4,
+          "name": "mcasp1_fsx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "uart5_rtsn", 
+          "mode": 5,
+          "name": "uart5_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "uart2_txd", 
+          "mode": 6,
+          "name": "uart2_txd",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 98, 
-          "mode": 7, 
-          "name": "gpio3_2", 
+          "gpio_num": 98,
+          "mode": 7,
+          "name": "gpio3_2",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_TXD0": {
-      "linux_name": "mii1_txd0", 
+      "linux_name": "mii1_txd0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_txd0", 
+          "mode": 0,
+          "name": "gmii1_txd0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii1_txd0", 
+          "mode": 1,
+          "name": "rmii1_txd0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_td0", 
+          "mode": 2,
+          "name": "rgmii1_td0",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_axr2", 
+          "mode": 3,
+          "name": "mcasp1_axr2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_aclkr", 
+          "mode": 4,
+          "name": "mcasp1_aclkr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "eQEP0B_in", 
+          "mode": 5,
+          "name": "eQEP0B_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mmc1_clk", 
+          "mode": 6,
+          "name": "mmc1_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 28, 
-          "mode": 7, 
-          "name": "gpio0_28", 
+          "gpio_num": 28,
+          "mode": 7,
+          "name": "gpio0_28",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_TXD1": {
-      "linux_name": "mii1_txd1", 
+      "linux_name": "mii1_txd1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_txd1", 
+          "mode": 0,
+          "name": "gmii1_txd1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii1_txd1", 
+          "mode": 1,
+          "name": "rmii1_txd1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_td1", 
+          "mode": 2,
+          "name": "rgmii1_td1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mcasp1_fsr", 
+          "mode": 3,
+          "name": "mcasp1_fsr",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_axr1", 
+          "mode": 4,
+          "name": "mcasp1_axr1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "eQEP0A_in", 
+          "mode": 5,
+          "name": "eQEP0A_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mmc1_cmd", 
+          "mode": 6,
+          "name": "mmc1_cmd",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 21, 
-          "mode": 7, 
-          "name": "gpio0_21", 
+          "gpio_num": 21,
+          "mode": 7,
+          "name": "gpio0_21",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_TXD2": {
-      "linux_name": "mii1_txd2", 
+      "linux_name": "mii1_txd2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_txd2", 
+          "mode": 0,
+          "name": "gmii1_txd2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "dcan0_rx", 
+          "mode": 1,
+          "name": "dcan0_rx",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_td2", 
+          "mode": 2,
+          "name": "rgmii1_td2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart4_txd", 
+          "mode": 3,
+          "name": "uart4_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_axr0", 
+          "mode": 4,
+          "name": "mcasp1_axr0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc2_dat2", 
+          "mode": 5,
+          "name": "mmc2_dat2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_ahclkx", 
+          "mode": 6,
+          "name": "mcasp0_ahclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 17, 
-          "mode": 7, 
-          "name": "gpio0_17", 
+          "gpio_num": 17,
+          "mode": 7,
+          "name": "gpio0_17",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_TXD3": {
-      "linux_name": "mii1_txd3", 
+      "linux_name": "mii1_txd3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_txd3", 
+          "mode": 0,
+          "name": "gmii1_txd3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "dcan0_tx", 
+          "mode": 1,
+          "name": "dcan0_tx",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_td3", 
+          "mode": 2,
+          "name": "rgmii1_td3",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart4_rxd", 
+          "mode": 3,
+          "name": "uart4_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_fsx", 
+          "mode": 4,
+          "name": "mcasp1_fsx",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc2_dat1", 
+          "mode": 5,
+          "name": "mmc2_dat1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_fsr", 
+          "mode": 6,
+          "name": "mcasp0_fsr",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 16, 
-          "mode": 7, 
-          "name": "gpio0_16", 
+          "gpio_num": 16,
+          "mode": 7,
+          "name": "gpio0_16",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_TX_CLK": {
-      "linux_name": "mii1_txclk", 
+      "linux_name": "mii1_txclk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_txclk", 
+          "mode": 0,
+          "name": "gmii1_txclk",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart2_rxd", 
+          "mode": 1,
+          "name": "uart2_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_tclk", 
+          "mode": 2,
+          "name": "rgmii1_tclk",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc0_dat7", 
+          "mode": 3,
+          "name": "mmc0_dat7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mmc1_dat0", 
+          "mode": 4,
+          "name": "mmc1_dat0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "uart1_dcdn", 
+          "mode": 5,
+          "name": "uart1_dcdn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp0_aclkx", 
+          "mode": 6,
+          "name": "mcasp0_aclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 105, 
-          "mode": 7, 
-          "name": "gpio3_9", 
+          "gpio_num": 105,
+          "mode": 7,
+          "name": "gpio3_9",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MII1_TX_EN": {
-      "linux_name": "mii1_txen", 
+      "linux_name": "mii1_txen",
       "signals": [
         {
-          "mode": 0, 
-          "name": "gmii1_txen", 
+          "mode": 0,
+          "name": "gmii1_txen",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "rmii1_txen", 
+          "mode": 1,
+          "name": "rmii1_txen",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "rgmii1_tctl", 
+          "mode": 2,
+          "name": "rgmii1_tctl",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "timer4", 
+          "mode": 3,
+          "name": "timer4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_axr0", 
+          "mode": 4,
+          "name": "mcasp1_axr0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "eQEP0_index", 
+          "mode": 5,
+          "name": "eQEP0_index",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mmc2_cmd", 
+          "mode": 6,
+          "name": "mmc2_cmd",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 99, 
-          "mode": 7, 
-          "name": "gpio3_3", 
+          "gpio_num": 99,
+          "mode": 7,
+          "name": "gpio3_3",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MMC0_CLK": {
-      "linux_name": "mmc0_clk", 
+      "linux_name": "mmc0_clk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mmc0_clk", 
+          "mode": 0,
+          "name": "mmc0_clk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a24", 
+          "mode": 1,
+          "name": "gpmc_a24",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart3_ctsn", 
+          "mode": 2,
+          "name": "uart3_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart2_rxd", 
+          "mode": 3,
+          "name": "uart2_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "dcan1_tx", 
+          "mode": 4,
+          "name": "dcan1_tx",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_12", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_12",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_12", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_12",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 94, 
-          "mode": 7, 
-          "name": "gpio2_30", 
+          "gpio_num": 94,
+          "mode": 7,
+          "name": "gpio2_30",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MMC0_CMD": {
-      "linux_name": "mmc0_cmd", 
+      "linux_name": "mmc0_cmd",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mmc0_cmd", 
+          "mode": 0,
+          "name": "mmc0_cmd",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a25", 
+          "mode": 1,
+          "name": "gpmc_a25",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart3_rtsn", 
+          "mode": 2,
+          "name": "uart3_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart2_txd", 
+          "mode": 3,
+          "name": "uart2_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "dcan1_rx", 
+          "mode": 4,
+          "name": "dcan1_rx",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_13", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_13",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_13", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_13",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 95, 
-          "mode": 7, 
-          "name": "gpio2_31", 
+          "gpio_num": 95,
+          "mode": 7,
+          "name": "gpio2_31",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MMC0_DAT0": {
-      "linux_name": "mmc0_dat0", 
+      "linux_name": "mmc0_dat0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mmc0_dat0", 
+          "mode": 0,
+          "name": "mmc0_dat0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a23", 
+          "mode": 1,
+          "name": "gpmc_a23",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart5_rtsn", 
+          "mode": 2,
+          "name": "uart5_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart3_txd", 
+          "mode": 3,
+          "name": "uart3_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "uart1_rin", 
+          "mode": 4,
+          "name": "uart1_rin",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_11", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_11",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_11", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_11",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 93, 
-          "mode": 7, 
-          "name": "gpio2_29", 
+          "gpio_num": 93,
+          "mode": 7,
+          "name": "gpio2_29",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MMC0_DAT1": {
-      "linux_name": "mmc0_dat1", 
+      "linux_name": "mmc0_dat1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mmc0_dat1", 
+          "mode": 0,
+          "name": "mmc0_dat1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a22", 
+          "mode": 1,
+          "name": "gpmc_a22",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart5_ctsn", 
+          "mode": 2,
+          "name": "uart5_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart3_rxd", 
+          "mode": 3,
+          "name": "uart3_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "uart1_dtrn", 
+          "mode": 4,
+          "name": "uart1_dtrn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_10", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_10",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_10", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_10",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 92, 
-          "mode": 7, 
-          "name": "gpio2_28", 
+          "gpio_num": 92,
+          "mode": 7,
+          "name": "gpio2_28",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MMC0_DAT2": {
-      "linux_name": "mmc0_dat2", 
+      "linux_name": "mmc0_dat2",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mmc0_dat2", 
+          "mode": 0,
+          "name": "mmc0_dat2",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a21", 
+          "mode": 1,
+          "name": "gpmc_a21",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart4_rtsn", 
+          "mode": 2,
+          "name": "uart4_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "timer6", 
+          "mode": 3,
+          "name": "timer6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "uart1_dsrn", 
+          "mode": 4,
+          "name": "uart1_dsrn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_9", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_9",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_9", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_9",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 91, 
-          "mode": 7, 
-          "name": "gpio2_27", 
+          "gpio_num": 91,
+          "mode": 7,
+          "name": "gpio2_27",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "MMC0_DAT3": {
-      "linux_name": "mmc0_dat3", 
+      "linux_name": "mmc0_dat3",
       "signals": [
         {
-          "mode": 0, 
-          "name": "mmc0_dat3", 
+          "mode": 0,
+          "name": "mmc0_dat3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "gpmc_a20", 
+          "mode": 1,
+          "name": "gpmc_a20",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "uart4_ctsn", 
+          "mode": 2,
+          "name": "uart4_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "timer5", 
+          "mode": 3,
+          "name": "timer5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "uart1_dcdn", 
+          "mode": 4,
+          "name": "uart1_dcdn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r30_8", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r30_8",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_8", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_8",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 90, 
-          "mode": 7, 
-          "name": "gpio2_26", 
+          "gpio_num": 90,
+          "mode": 7,
+          "name": "gpio2_26",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "PMIC_POWER_EN": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "PMIC_POWER_EN", 
+          "mode": 0,
+          "name": "PMIC_POWER_EN",
           "type": "O"
         }
       ]
-    }, 
+    },
     "PWRONRSTn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "porz", 
+          "mode": 0,
+          "name": "porz",
           "type": "I"
         }
       ]
-    }, 
+    },
     "RESERVED": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "testout", 
+          "mode": 0,
+          "name": "testout",
           "type": "O"
         }
       ]
-    }, 
+    },
     "RMII1_REF_CLK": {
-      "linux_name": "rmii1_refclk", 
+      "linux_name": "rmii1_refclk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "rmii1_refclk", 
+          "mode": 0,
+          "name": "rmii1_refclk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "xdma_event_intr2", 
+          "mode": 1,
+          "name": "xdma_event_intr2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "spi1_cs0", 
+          "mode": 2,
+          "name": "spi1_cs0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "uart5_txd", 
+          "mode": 3,
+          "name": "uart5_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "mcasp1_axr3", 
+          "mode": 4,
+          "name": "mcasp1_axr3",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc0_pow", 
+          "mode": 5,
+          "name": "mmc0_pow",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "mcasp1_ahclkx", 
+          "mode": 6,
+          "name": "mcasp1_ahclkx",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 29, 
-          "mode": 7, 
-          "name": "gpio0_29", 
+          "gpio_num": 29,
+          "mode": 7,
+          "name": "gpio0_29",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "RTC_KALDO_ENn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "ENZ_KALDO_1P8V", 
+          "mode": 0,
+          "name": "ENZ_KALDO_1P8V",
           "type": "I"
         }
       ]
-    }, 
+    },
     "RTC_PWRONRSTn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "RTC_porz", 
+          "mode": 0,
+          "name": "RTC_porz",
           "type": "I"
         }
       ]
-    }, 
+    },
     "RTC_XTALIN": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "OSC1_IN", 
+          "mode": 0,
+          "name": "OSC1_IN",
           "type": "I"
         }
       ]
-    }, 
+    },
     "RTC_XTALOUT": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "OSC1_OUT", 
+          "mode": 0,
+          "name": "OSC1_OUT",
           "type": "O"
         }
       ]
-    }, 
+    },
     "SPI0_CS0": {
-      "linux_name": "spi0_cs0", 
+      "linux_name": "spi0_cs0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "spi0_cs0", 
+          "mode": 0,
+          "name": "spi0_cs0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc2_sdwp", 
+          "mode": 1,
+          "name": "mmc2_sdwp",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "I2C1_SCL", 
+          "mode": 2,
+          "name": "I2C1_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm0_synci", 
+          "mode": 3,
+          "name": "ehrpwm0_synci",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_uart0_txd", 
+          "mode": 4,
+          "name": "pr1_uart0_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_edio_data_in1", 
+          "mode": 5,
+          "name": "pr1_edio_data_in1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_edio_data_out1", 
+          "mode": 6,
+          "name": "pr1_edio_data_out1",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 5, 
-          "mode": 7, 
-          "name": "gpio0_5", 
+          "gpio_num": 5,
+          "mode": 7,
+          "name": "gpio0_5",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "SPI0_CS1": {
-      "linux_name": "spi0_cs1", 
+      "linux_name": "spi0_cs1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "spi0_cs1", 
+          "mode": 0,
+          "name": "spi0_cs1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart3_rxd", 
+          "mode": 1,
+          "name": "uart3_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "eCAP1_in_PWM1_out", 
+          "mode": 2,
+          "name": "eCAP1_in_PWM1_out",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "mmc0_pow", 
+          "mode": 3,
+          "name": "mmc0_pow",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "xdma_event_intr2", 
+          "mode": 4,
+          "name": "xdma_event_intr2",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "mmc0_sdcd", 
+          "mode": 5,
+          "name": "mmc0_sdcd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "EMU4", 
+          "mode": 6,
+          "name": "EMU4",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 6, 
-          "mode": 7, 
-          "name": "gpio0_6", 
+          "gpio_num": 6,
+          "mode": 7,
+          "name": "gpio0_6",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "SPI0_D0": {
-      "linux_name": "spi0_d0", 
+      "linux_name": "spi0_d0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "spi0_d0", 
+          "mode": 0,
+          "name": "spi0_d0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart2_txd", 
+          "mode": 1,
+          "name": "uart2_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "I2C2_SCL", 
+          "mode": 2,
+          "name": "I2C2_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm0B", 
+          "mode": 3,
+          "name": "ehrpwm0B",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_uart0_rts_n", 
+          "mode": 4,
+          "name": "pr1_uart0_rts_n",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_edio_latch_in", 
+          "mode": 5,
+          "name": "pr1_edio_latch_in",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "EMU3", 
+          "mode": 6,
+          "name": "EMU3",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 3, 
-          "mode": 7, 
-          "name": "gpio0_3", 
+          "gpio_num": 3,
+          "mode": 7,
+          "name": "gpio0_3",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "SPI0_D1": {
-      "linux_name": "spi0_d1", 
+      "linux_name": "spi0_d1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "spi0_d1", 
+          "mode": 0,
+          "name": "spi0_d1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_sdwp", 
+          "mode": 1,
+          "name": "mmc1_sdwp",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "I2C1_SDA", 
+          "mode": 2,
+          "name": "I2C1_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm0_tripzone_input", 
+          "mode": 3,
+          "name": "ehrpwm0_tripzone_input",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_uart0_rxd", 
+          "mode": 4,
+          "name": "pr1_uart0_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_edio_data_in0", 
+          "mode": 5,
+          "name": "pr1_edio_data_in0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_edio_data_out0", 
+          "mode": 6,
+          "name": "pr1_edio_data_out0",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 4, 
-          "mode": 7, 
-          "name": "gpio0_4", 
+          "gpio_num": 4,
+          "mode": 7,
+          "name": "gpio0_4",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "SPI0_SCLK": {
-      "linux_name": "spi0_sclk", 
+      "linux_name": "spi0_sclk",
       "signals": [
         {
-          "mode": 0, 
-          "name": "spi0_sclk", 
+          "mode": 0,
+          "name": "spi0_sclk",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart2_rxd", 
+          "mode": 1,
+          "name": "uart2_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "I2C2_SDA", 
+          "mode": 2,
+          "name": "I2C2_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "ehrpwm0A", 
+          "mode": 3,
+          "name": "ehrpwm0A",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "pr1_uart0_cts_n", 
+          "mode": 4,
+          "name": "pr1_uart0_cts_n",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_edio_sof", 
+          "mode": 5,
+          "name": "pr1_edio_sof",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "EMU2", 
+          "mode": 6,
+          "name": "EMU2",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 2, 
-          "mode": 7, 
-          "name": "gpio0_2", 
+          "gpio_num": 2,
+          "mode": 7,
+          "name": "gpio0_2",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "TCK": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "TCK", 
+          "mode": 0,
+          "name": "TCK",
           "type": "I"
         }
       ]
-    }, 
+    },
     "TDI": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "TDI", 
+          "mode": 0,
+          "name": "TDI",
           "type": "I"
         }
       ]
-    }, 
+    },
     "TDO": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "TDO", 
+          "mode": 0,
+          "name": "TDO",
           "type": "O"
         }
       ]
-    }, 
+    },
     "TMS": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "TMS", 
+          "mode": 0,
+          "name": "TMS",
           "type": "I"
         }
       ]
-    }, 
+    },
     "TRSTn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "nTRST", 
+          "mode": 0,
+          "name": "nTRST",
           "type": "I"
         }
       ]
-    }, 
+    },
     "UART0_CTSn": {
-      "linux_name": "uart0_ctsn", 
+      "linux_name": "uart0_ctsn",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart0_ctsn", 
+          "mode": 0,
+          "name": "uart0_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart4_rxd", 
+          "mode": 1,
+          "name": "uart4_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan1_tx", 
+          "mode": 2,
+          "name": "dcan1_tx",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C1_SDA", 
+          "mode": 3,
+          "name": "I2C1_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "spi1_d0", 
+          "mode": 4,
+          "name": "spi1_d0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "timer7", 
+          "mode": 5,
+          "name": "timer7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_edc_sync0_out", 
+          "mode": 6,
+          "name": "pr1_edc_sync0_out",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 40, 
-          "mode": 7, 
-          "name": "gpio1_8", 
+          "gpio_num": 40,
+          "mode": 7,
+          "name": "gpio1_8",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "UART0_RTSn": {
-      "linux_name": "uart0_rtsn", 
+      "linux_name": "uart0_rtsn",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart0_rtsn", 
+          "mode": 0,
+          "name": "uart0_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "uart4_txd", 
+          "mode": 1,
+          "name": "uart4_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan1_rx", 
+          "mode": 2,
+          "name": "dcan1_rx",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C1_SCL", 
+          "mode": 3,
+          "name": "I2C1_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "spi1_d1", 
+          "mode": 4,
+          "name": "spi1_d1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "spi1_cs0", 
+          "mode": 5,
+          "name": "spi1_cs0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_edc_sync1_out", 
+          "mode": 6,
+          "name": "pr1_edc_sync1_out",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 41, 
-          "mode": 7, 
-          "name": "gpio1_9", 
+          "gpio_num": 41,
+          "mode": 7,
+          "name": "gpio1_9",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "UART0_RXD": {
-      "linux_name": "uart0_rxd", 
+      "linux_name": "uart0_rxd",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart0_rxd", 
+          "mode": 0,
+          "name": "uart0_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "spi1_cs0", 
+          "mode": 1,
+          "name": "spi1_cs0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan0_tx", 
+          "mode": 2,
+          "name": "dcan0_tx",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C2_SDA", 
+          "mode": 3,
+          "name": "I2C2_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "eCAP2_in_PWM2_out", 
+          "mode": 4,
+          "name": "eCAP2_in_PWM2_out",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_14", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_14",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_14", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_14",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 42, 
-          "mode": 7, 
-          "name": "gpio1_10", 
+          "gpio_num": 42,
+          "mode": 7,
+          "name": "gpio1_10",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "UART0_TXD": {
-      "linux_name": "uart0_txd", 
+      "linux_name": "uart0_txd",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart0_txd", 
+          "mode": 0,
+          "name": "uart0_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "spi1_cs1", 
+          "mode": 1,
+          "name": "spi1_cs1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan0_rx", 
+          "mode": 2,
+          "name": "dcan0_rx",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C2_SCL", 
+          "mode": 3,
+          "name": "I2C2_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "eCAP1_in_PWM1_out", 
+          "mode": 4,
+          "name": "eCAP1_in_PWM1_out",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r30_15", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r30_15",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_15", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_15",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 43, 
-          "mode": 7, 
-          "name": "gpio1_11", 
+          "gpio_num": 43,
+          "mode": 7,
+          "name": "gpio1_11",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "UART1_CTSn": {
-      "linux_name": "uart1_ctsn", 
+      "linux_name": "uart1_ctsn",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart1_ctsn", 
+          "mode": 0,
+          "name": "uart1_ctsn",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "timer6", 
+          "mode": 1,
+          "name": "timer6",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan0_tx", 
+          "mode": 2,
+          "name": "dcan0_tx",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C2_SDA", 
+          "mode": 3,
+          "name": "I2C2_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "spi1_cs0", 
+          "mode": 4,
+          "name": "spi1_cs0",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_uart0_cts_n", 
+          "mode": 5,
+          "name": "pr1_uart0_cts_n",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_edc_latch0_in", 
+          "mode": 6,
+          "name": "pr1_edc_latch0_in",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 12, 
-          "mode": 7, 
-          "name": "gpio0_12", 
+          "gpio_num": 12,
+          "mode": 7,
+          "name": "gpio0_12",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "UART1_RTSn": {
-      "linux_name": "uart1_rtsn", 
+      "linux_name": "uart1_rtsn",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart1_rtsn", 
+          "mode": 0,
+          "name": "uart1_rtsn",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "timer5", 
+          "mode": 1,
+          "name": "timer5",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan0_rx", 
+          "mode": 2,
+          "name": "dcan0_rx",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C2_SCL", 
+          "mode": 3,
+          "name": "I2C2_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "spi1_cs1", 
+          "mode": 4,
+          "name": "spi1_cs1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_uart0_rts_n", 
+          "mode": 5,
+          "name": "pr1_uart0_rts_n",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_edc_latch1_in", 
+          "mode": 6,
+          "name": "pr1_edc_latch1_in",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 13, 
-          "mode": 7, 
-          "name": "gpio0_13", 
+          "gpio_num": 13,
+          "mode": 7,
+          "name": "gpio0_13",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "UART1_RXD": {
-      "linux_name": "uart1_rxd", 
+      "linux_name": "uart1_rxd",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart1_rxd", 
+          "mode": 0,
+          "name": "uart1_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc1_sdwp", 
+          "mode": 1,
+          "name": "mmc1_sdwp",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan1_tx", 
+          "mode": 2,
+          "name": "dcan1_tx",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C1_SDA", 
+          "mode": 3,
+          "name": "I2C1_SDA",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_uart0_rxd", 
+          "mode": 5,
+          "name": "pr1_uart0_rxd",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru1_pru_r31_16", 
+          "mode": 6,
+          "name": "pr1_pru1_pru_r31_16",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 14, 
-          "mode": 7, 
-          "name": "gpio0_14", 
+          "gpio_num": 14,
+          "mode": 7,
+          "name": "gpio0_14",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "UART1_TXD": {
-      "linux_name": "uart1_txd", 
+      "linux_name": "uart1_txd",
       "signals": [
         {
-          "mode": 0, 
-          "name": "uart1_txd", 
+          "mode": 0,
+          "name": "uart1_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 1, 
-          "name": "mmc2_sdwp", 
+          "mode": 1,
+          "name": "mmc2_sdwp",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "dcan1_rx", 
+          "mode": 2,
+          "name": "dcan1_rx",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "I2C1_SCL", 
+          "mode": 3,
+          "name": "I2C1_SCL",
           "type": "IOD"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_uart0_txd", 
+          "mode": 5,
+          "name": "pr1_uart0_txd",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "pr1_pru0_pru_r31_16", 
+          "mode": 6,
+          "name": "pr1_pru0_pru_r31_16",
           "type": "I"
-        }, 
+        },
         {
-          "gpio_num": 15, 
-          "mode": 7, 
-          "name": "gpio0_15", 
+          "gpio_num": 15,
+          "mode": 7,
+          "name": "gpio0_15",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "USB0_CE": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB0_CE", 
+          "mode": 0,
+          "name": "USB0_CE",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB0_DM": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB0_DM", 
+          "mode": 0,
+          "name": "USB0_DM",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB0_DP": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB0_DP", 
+          "mode": 0,
+          "name": "USB0_DP",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB0_DRVVBUS": {
-      "linux_name": "usb0_drvvbus", 
+      "linux_name": "usb0_drvvbus",
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB0_DRVVBUS", 
+          "mode": 0,
+          "name": "USB0_DRVVBUS",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 18, 
-          "mode": 7, 
-          "name": "gpio0_18", 
+          "gpio_num": 18,
+          "mode": 7,
+          "name": "gpio0_18",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "USB0_ID": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB0_ID", 
+          "mode": 0,
+          "name": "USB0_ID",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB0_VBUS": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB0_VBUS", 
+          "mode": 0,
+          "name": "USB0_VBUS",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB1_CE": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB1_CE", 
+          "mode": 0,
+          "name": "USB1_CE",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB1_DM": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB1_DM", 
+          "mode": 0,
+          "name": "USB1_DM",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB1_DP": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB1_DP", 
+          "mode": 0,
+          "name": "USB1_DP",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB1_DRVVBUS": {
-      "linux_name": "usb1_drvvbus", 
+      "linux_name": "usb1_drvvbus",
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB1_DRVVBUS", 
+          "mode": 0,
+          "name": "USB1_DRVVBUS",
           "type": "O"
-        }, 
+        },
         {
-          "gpio_num": 109, 
-          "mode": 7, 
-          "name": "gpio3_13", 
+          "gpio_num": 109,
+          "mode": 7,
+          "name": "gpio3_13",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "USB1_ID": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB1_ID", 
+          "mode": 0,
+          "name": "USB1_ID",
           "type": "A"
         }
       ]
-    }, 
+    },
     "USB1_VBUS": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "USB1_VBUS", 
+          "mode": 0,
+          "name": "USB1_VBUS",
           "type": "A"
         }
       ]
-    }, 
+    },
     "VDDA1P8V_USB0": {
       "signals": [
         {
-          "name": "VDDA1P8V_USB0", 
+          "name": "VDDA1P8V_USB0",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDA1P8V_USB1": {
       "signals": [
         {
-          "name": "VDDA1P8V_USB1", 
+          "name": "VDDA1P8V_USB1",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDA3P3V_USB0": {
       "signals": [
         {
-          "name": "VDDA3P3V_USB0", 
+          "name": "VDDA3P3V_USB0",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDA3P3V_USB1": {
       "signals": [
         {
-          "name": "VDDA3P3V_USB1", 
+          "name": "VDDA3P3V_USB1",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDA_ADC": {
       "signals": [
         {
-          "name": "VDDA_ADC", 
+          "name": "VDDA_ADC",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS": {
       "signals": [
         {
-          "name": "VDDS", 
+          "name": "VDDS",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDSHV1": {
       "signals": [
         {
-          "name": "VDDSHV1", 
+          "name": "VDDSHV1",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDSHV2": {
       "signals": [
         {
-          "name": "VDDSHV2", 
+          "name": "VDDSHV2",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDSHV3": {
       "signals": [
         {
-          "name": "VDDSHV3", 
+          "name": "VDDSHV3",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDSHV4": {
       "signals": [
         {
-          "name": "VDDSHV4", 
+          "name": "VDDSHV4",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDSHV5": {
       "signals": [
         {
-          "name": "VDDSHV5", 
+          "name": "VDDSHV5",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDSHV6": {
       "signals": [
         {
-          "name": "VDDSHV6", 
+          "name": "VDDSHV6",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_DDR": {
       "signals": [
         {
-          "name": "VDDS_DDR", 
+          "name": "VDDS_DDR",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_OSC": {
       "signals": [
         {
-          "name": "VDDS_OSC", 
+          "name": "VDDS_OSC",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_PLL_CORE_LCD": {
       "signals": [
         {
-          "name": "VDDS_PLL_CORE_LCD", 
+          "name": "VDDS_PLL_CORE_LCD",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_PLL_DDR": {
       "signals": [
         {
-          "name": "VDDS_PLL_DDR", 
+          "name": "VDDS_PLL_DDR",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_PLL_MPU": {
       "signals": [
         {
-          "name": "VDDS_PLL_MPU", 
+          "name": "VDDS_PLL_MPU",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_RTC": {
       "signals": [
         {
-          "name": "VDDS_RTC", 
+          "name": "VDDS_RTC",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_SRAM_CORE_BG": {
       "signals": [
         {
-          "name": "VDDS_SRAM_CORE_BG", 
+          "name": "VDDS_SRAM_CORE_BG",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDDS_SRAM_MPU_BB": {
       "signals": [
         {
-          "name": "VDDS_SRAM_MPU_BB", 
+          "name": "VDDS_SRAM_MPU_BB",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDD_CORE": {
       "signals": [
         {
-          "name": "VDD_CORE", 
+          "name": "VDD_CORE",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDD_MPU": {
       "signals": [
         {
-          "name": "VDD_MPU", 
+          "name": "VDD_MPU",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VDD_MPU_MON": {
       "signals": [
         {
-          "name": "VDD_MPU_MON", 
+          "name": "VDD_MPU_MON",
           "type": "A"
         }
       ]
-    }, 
+    },
     "VPP": {
       "signals": [
         {
-          "name": "VPP", 
+          "name": "VPP",
           "type": "PWR"
         }
       ]
-    }, 
+    },
     "VREFN": {
-      "linux_name": "vrefn", 
+      "linux_name": "vrefn",
       "signals": [
         {
-          "mode": 0, 
-          "name": "VREFN", 
+          "mode": 0,
+          "name": "VREFN",
           "type": "A"
         }
       ]
-    }, 
+    },
     "VREFP": {
-      "linux_name": "vrefp", 
+      "linux_name": "vrefp",
       "signals": [
         {
-          "mode": 0, 
-          "name": "VREFP", 
+          "mode": 0,
+          "name": "VREFP",
           "type": "A"
         }
       ]
-    }, 
+    },
     "VSS": {
       "signals": [
         {
-          "name": "VSS", 
+          "name": "VSS",
           "type": "GND"
         }
       ]
-    }, 
+    },
     "VSSA_ADC": {
       "signals": [
         {
-          "name": "VSSA_ADC", 
+          "name": "VSSA_ADC",
           "type": "GND"
         }
       ]
-    }, 
+    },
     "VSSA_USB": {
       "signals": [
         {
-          "name": "VSSA_USB", 
+          "name": "VSSA_USB",
           "type": "GND"
         }
       ]
-    }, 
+    },
     "VSS_OSC": {
       "signals": [
         {
-          "name": "VSS_OSC", 
+          "name": "VSS_OSC",
           "type": "A"
         }
       ]
-    }, 
+    },
     "VSS_RTC": {
       "signals": [
         {
-          "name": "VSS_RTC", 
+          "name": "VSS_RTC",
           "type": "A"
         }
       ]
-    }, 
+    },
     "WARMRSTn": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "nRESETIN_OUT", 
+          "mode": 0,
+          "name": "nRESETIN_OUT",
           "type": "IOD"
         }
       ]
-    }, 
+    },
     "XDMA_EVENT_INTR0": {
-      "linux_name": "xdma_event_intr0", 
+      "linux_name": "xdma_event_intr0",
       "signals": [
         {
-          "mode": 0, 
-          "name": "xdma_event_intr0", 
+          "mode": 0,
+          "name": "xdma_event_intr0",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "timer4", 
+          "mode": 2,
+          "name": "timer4",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "clkout1", 
+          "mode": 3,
+          "name": "clkout1",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "spi1_cs1", 
+          "mode": 4,
+          "name": "spi1_cs1",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru1_pru_r31_16", 
+          "mode": 5,
+          "name": "pr1_pru1_pru_r31_16",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "EMU2", 
+          "mode": 6,
+          "name": "EMU2",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 19, 
-          "mode": 7, 
-          "name": "gpio0_19", 
+          "gpio_num": 19,
+          "mode": 7,
+          "name": "gpio0_19",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "XDMA_EVENT_INTR1": {
-      "linux_name": "xdma_event_intr1", 
+      "linux_name": "xdma_event_intr1",
       "signals": [
         {
-          "mode": 0, 
-          "name": "xdma_event_intr1", 
+          "mode": 0,
+          "name": "xdma_event_intr1",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 2, 
-          "name": "tclkin", 
+          "mode": 2,
+          "name": "tclkin",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 3, 
-          "name": "clkout2", 
+          "mode": 3,
+          "name": "clkout2",
           "type": "O"
-        }, 
+        },
         {
-          "mode": 4, 
-          "name": "timer7", 
+          "mode": 4,
+          "name": "timer7",
           "type": "IO"
-        }, 
+        },
         {
-          "mode": 5, 
-          "name": "pr1_pru0_pru_r31_16", 
+          "mode": 5,
+          "name": "pr1_pru0_pru_r31_16",
           "type": "I"
-        }, 
+        },
         {
-          "mode": 6, 
-          "name": "EMU3", 
+          "mode": 6,
+          "name": "EMU3",
           "type": "IO"
-        }, 
+        },
         {
-          "gpio_num": 20, 
-          "mode": 7, 
-          "name": "gpio0_20", 
+          "gpio_num": 20,
+          "mode": 7,
+          "name": "gpio0_20",
           "type": "IO"
         }
       ]
-    }, 
+    },
     "XTALIN": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "OSC0_IN", 
+          "mode": 0,
+          "name": "OSC0_IN",
           "type": "I"
         }
       ]
-    }, 
+    },
     "XTALOUT": {
       "signals": [
         {
-          "mode": 0, 
-          "name": "OSC0_OUT", 
+          "mode": 0,
+          "name": "OSC0_OUT",
           "type": "O"
         }
       ]
