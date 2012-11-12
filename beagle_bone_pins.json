@@ -1,354 +1,354 @@
 {
   "bb_pins": {
-    "P8-1": {
+    "P8_1": {
       "name": "GND"
     },
-    "P8-2": {
+    "P8_2": {
       "name": "GND"
     },
-    "P8-3": {
+    "P8_3": {
       "name": "GPIO1_6",
       "mpu_pin": "GPMC_AD6"
     },
-    "P8-4": {
+    "P8_4": {
       "name": "GPIO1_7",
       "mpu_pin": "GPMC_AD7"
     },
-    "P8-5": {
+    "P8_5": {
       "name": "GPIO1_2",
       "mpu_pin": "GPMC_AD2"
     },
-    "P8-6": {
+    "P8_6": {
       "name": "GPIO1_3",
       "mpu_pin": "GPMC_AD3"
     },
-    "P8-7": {
+    "P8_7": {
       "name": "TIMER4",
       "mpu_pin": "GPMC_ADVn_ALE"
     },
-    "P8-8": {
+    "P8_8": {
       "name": "TIMER7",
       "mpu_pin": "GPMC_OEn_REn"
     },
-    "P8-9": {
+    "P8_9": {
       "name": "TIMER5",
       "mpu_pin": "GPMC_BEn0_CLE"
     },
-    "P8-10": {
+    "P8_10": {
       "name": "TIMER6",
       "mpu_pin": "GPMC_WEn"
     },
-    "P8-11": {
+    "P8_11": {
       "name": "GPIO1_13",
       "mpu_pin": "GPMC_AD13"
     },
-    "P8-12": {
+    "P8_12": {
       "name": "GPIO1_12",
       "mpu_pin": "GPMC_AD12"
     },
-    "P8-13": {
+    "P8_13": {
       "name": "EHRPWM2B",
       "mpu_pin": "GPMC_AD9"
     },
-    "P8-14": {
+    "P8_14": {
       "name": "GPIO0_26",
       "mpu_pin": "GPMC_AD10"
     },
-    "P8-15": {
+    "P8_15": {
       "name": "GPIO1_15",
       "mpu_pin": "GPMC_AD15"
     },
-    "P8-16": {
+    "P8_16": {
       "name": "GPIO1_14",
       "mpu_pin": "GPMC_AD14"
     },
-    "P8-17": {
+    "P8_17": {
       "name": "GPIO0_27",
       "mpu_pin": "GPMC_AD11"
     },
-    "P8-18": {
+    "P8_18": {
       "name": "GPIO2_1",
       "mpu_pin": "GPMC_CLK"
     },
-    "P8-19": {
+    "P8_19": {
       "name": "EHRPWM2A",
       "mpu_pin": "GPMC_AD8"
     },
-    "P8-20": {
+    "P8_20": {
       "name": "GPIO1_31",
       "mpu_pin": "GPMC_CSn2"
     },
-    "P8-21": {
+    "P8_21": {
       "name": "GPIO1_30",
       "mpu_pin": "GPMC_CSn1"
     },
-    "P8-22": {
+    "P8_22": {
       "name": "GPIO1_5",
       "mpu_pin": "GPMC_AD5"
     },
-    "P8-23": {
+    "P8_23": {
       "name": "GPIO1_4",
       "mpu_pin": "GPMC_AD4"
     },
-    "P8-24": {
+    "P8_24": {
       "name": "GPIO1_1",
       "mpu_pin": "GPMC_AD1"
     },
-    "P8-25": {
+    "P8_25": {
       "name": "GPIO1_0",
       "mpu_pin": "GPMC_AD0"
     },
-    "P8-26": {
+    "P8_26": {
       "name": "GPIO1_29",
       "mpu_pin": "GPMC_CSn0"
     },
-    "P8-27": {
+    "P8_27": {
       "name": "GPIO2_22",
       "mpu_pin": "LCD_VSYNC"
     },
-    "P8-28": {
+    "P8_28": {
       "name": "GPIO2_24",
       "mpu_pin": "LCD_PCLK"
     },
-    "P8-29": {
+    "P8_29": {
       "name": "GPIO2_23",
       "mpu_pin": "LCD_HSYNC"
     },
-    "P8-30": {
+    "P8_30": {
       "name": "GPIO2_25",
       "mpu_pin": "LCD_AC_BIAS_EN"
     },
-    "P8-31": {
+    "P8_31": {
       "name": "UART5_CTSN",
       "mpu_pin": "LCD_DATA14"
     },
-    "P8-32": {
+    "P8_32": {
       "name": "UART5_RTSN",
       "mpu_pin": "LCD_DATA15"
     },
-    "P8-33": {
+    "P8_33": {
       "name": "UART4_RTSN",
       "mpu_pin": "LCD_DATA13"
     },
-    "P8-34": {
+    "P8_34": {
       "name": "UART3_RTSN",
       "mpu_pin": "LCD_DATA11"
     },
-    "P8-35": {
+    "P8_35": {
       "name": "UART4_CTSN",
       "mpu_pin": "LCD_DATA12"
     },
-    "P8-36": {
+    "P8_36": {
       "name": "UART3_CTSN",
       "mpu_pin": "LCD_DATA10"
     },
-    "P8-37": {
+    "P8_37": {
       "name": "UART5_TXD",
       "mpu_pin": "LCD_DATA8"
     },
-    "P8-38": {
+    "P8_38": {
       "name": "UART5_RXD",
       "mpu_pin": "LCD_DATA9"
     },
-    "P8-39": {
+    "P8_39": {
       "name": "GPIO2_12",
       "mpu_pin": "LCD_DATA6"
     },
-    "P8-40": {
+    "P8_40": {
       "name": "GPIO2_13",
       "mpu_pin": "LCD_DATA7"
     },
-    "P8-41": {
+    "P8_41": {
       "name": "GPIO2_10",
       "mpu_pin": "LCD_DATA4"
     },
-    "P8-42": {
+    "P8_42": {
       "name": "GPIO2_11",
       "mpu_pin": "LCD_DATA5"
     },
-    "P8-43": {
+    "P8_43": {
       "name": "GPIO2_8",
       "mpu_pin": "LCD_DATA2"
     },
-    "P8-44": {
+    "P8_44": {
       "name": "GPIO2_9",
       "mpu_pin": "LCD_DATA3"
     },
-    "P8-45": {
+    "P8_45": {
       "name": "GPIO2_6",
       "mpu_pin": "LCD_DATA0"
     },
-    "P8-46": {
+    "P8_46": {
       "name": "GPIO2_7",
       "mpu_pin": "LCD_DATA1"
     },
-    "P9-1": {
+    "P9_1": {
       "name": "GND"
     },
-    "P9-2": {
+    "P9_2": {
       "name": "GND"
     },
-    "P9-3": {
+    "P9_3": {
       "name": "DC_3.3V"
     },
-    "P9-4": {
+    "P9_4": {
       "name": "DC_3.3V"
     },
-    "P9-5": {
+    "P9_5": {
       "name": "VDD_5V"
     },
-    "P9-6": {
+    "P9_6": {
       "name": "VDD_5V"
     },
-    "P9-7": {
+    "P9_7": {
       "name": "SYS_5V"
     },
-    "P9-8": {
+    "P9_8": {
       "name": "SYS_5V"
     },
-    "P9-9": {
+    "P9_9": {
       "name": "PWR_BUT"
     },
-    "P9-10": {
+    "P9_10": {
       "name": "SYS_RESETn",
       "mpu_pin": "WARMRSTn"
     },
-    "P9-11": {
+    "P9_11": {
       "name": "UART4_RXD",
       "mpu_pin": "GPMC_WAIT0"
     },
-    "P9-12": {
+    "P9_12": {
       "name": "GPIO1_28",
       "mpu_pin": "GPMC_BEn1"
     },
-    "P9-13": {
+    "P9_13": {
       "name": "UART4_TXD",
       "mpu_pin": "GPMC_WPn"
     },
-    "P9-14": {
+    "P9_14": {
       "name": "EHRPWM1A",
       "mpu_pin": "GPMC_A2"
     },
-    "P9-15": {
+    "P9_15": {
       "name": "GPIO1_16",
       "mpu_pin": "GPMC_A0"
     },
-    "P9-16": {
+    "P9_16": {
       "name": "EHRPWM1B",
       "mpu_pin": "GPMC_A3"
     },
-    "P9-17": {
+    "P9_17": {
       "name": "I2C1_SCL",
       "mpu_pin": "SPI0_CS0"
     },
-    "P9-18": {
+    "P9_18": {
       "name": "I2C1_SDA",
       "mpu_pin": "SPI0_D1"
     },
-    "P9-19": {
+    "P9_19": {
       "name": "I2C2_SCL",
       "mpu_pin": "UART1_RTSn"
     },
-    "P9-20": {
+    "P9_20": {
       "name": "I2C2_SDA",
       "mpu_pin": "UART1_CTSn"
     },
-    "P9-21": {
+    "P9_21": {
       "name": "UART2_TXD",
       "mpu_pin": "SPI0_D0"
     },
-    "P9-22": {
+    "P9_22": {
       "name": "UART2_RXD",
       "mpu_pin": "SPI0_SCLK"
     },
-    "P9-23": {
+    "P9_23": {
       "name": "GPIO1_17",
       "mpu_pin": "GPMC_A1"
     },
-    "P9-24": {
+    "P9_24": {
       "name": "UART1_TXD",
       "mpu_pin": "UART1_TXD"
     },
-    "P9-25": {
+    "P9_25": {
       "name": "GPIO3_21",
       "mpu_pin": "MCASP0_AHCLKX"
     },
-    "P9-26": {
+    "P9_26": {
       "name": "UART1_RXD",
       "mpu_pin": "UART1_RXD"
     },
-    "P9-27": {
+    "P9_27": {
       "name": "GPIO3_19",
       "mpu_pin": "MCASP0_FSR"
     },
-    "P9-28": {
+    "P9_28": {
       "name": "SPI1_CS0",
       "mpu_pin": "MCASP0_AHCLKR"
     },
-    "P9-29": {
+    "P9_29": {
       "name": "SPI1_D0",
       "mpu_pin": "MCASP0_FSX"
     },
-    "P9-30": {
+    "P9_30": {
       "name": "SPI1_D1",
       "mpu_pin": "MCASP0_AXR0"
     },
-    "P9-31": {
+    "P9_31": {
       "name": "SPI1_SCLK",
       "mpu_pin": "MCASP0_ACLKX"
     },
-    "P9-32": {
+    "P9_32": {
       "name": "VADC"
     },
-    "P9-33": {
+    "P9_33": {
       "name": "AIN4",
       "mpu_pin": "AIN4"
     },
-    "P9-34": {
+    "P9_34": {
       "name": "AGND"
     },
-    "P9-35": {
+    "P9_35": {
       "name": "AIN6",
       "mpu_pin": "AIN6"
     },
-    "P9-36": {
+    "P9_36": {
       "name": "AIN5",
       "mpu_pin": "AIN5"
     },
-    "P9-37": {
+    "P9_37": {
       "name": "AIN2",
       "mpu_pin": "AIN2"
     },
-    "P9-38": {
+    "P9_38": {
       "name": "AIN3",
       "mpu_pin": "AIN3"
     },
-    "P9-39": {
+    "P9_39": {
       "name": "AIN0",
       "mpu_pin": "AIN0"
     },
-    "P9-40": {
+    "P9_40": {
       "name": "AIN1",
       "mpu_pin": "AIN1"
     },
-    "P9-41": {
+    "P9_41": {
       "name": "CLKOUT2",
       "mpu_pin": "XDMA_EVENT_INTR1"
     },
-    "P9-42": {
+    "P9_42": {
       "name": "GPIO0_7",
       "mpu_pin": "ECAP0_IN_PWM0_OUT"
     },
-    "P9-43": {
+    "P9_43": {
       "name": "GND"
     },
-    "P9-44": {
+    "P9_44": {
       "name": "GND"
     },
-    "P9-45": {
+    "P9_45": {
       "name": "GND"
     },
-    "P9-46": {
+    "P9_46": {
       "name": "GND"
     },
     "USR0": {
