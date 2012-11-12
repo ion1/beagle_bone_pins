@@ -11,7 +11,13 @@
 This hopefully eliminates the need for ad-hoc lists of subsets of that
 information in various BeagleBone projects.
 
-Corrections to any errors found in the file are appreciated.
+Corrections to any errors found in the file as well as additional metadata (see
+TODO) are appreciated.
+
+TODO:
+
+* [The eeprom information](https://github.com/jadonk/bonescript/blob/master/node_modules/bonescript/bone.js)
+* [The `/sys/class/pwm` names](https://github.com/jadonk/bonescript/blob/master/node_modules/bonescript/bone.js)
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
