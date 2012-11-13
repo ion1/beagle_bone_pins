@@ -3335,7 +3335,7 @@
         },
         "uart5_rxd": {
           "mode": 2,
-          "type": "O"
+          "type": "I"
         }
       }
     },
