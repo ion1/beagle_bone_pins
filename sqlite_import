@@ -1,0 +1,34 @@
+#!/bin/sh
+set -eu
+
+imp() {
+  local database dir table
+  database="$1"; shift
+  dir="$1"; shift
+  table="$1"; shift
+
+  printf "Importing from %s\n" "$dir/$table.sql"
+
+  cat <<E | sqlite3 "$database"
+pragma foreign_keys = on;
+begin;
+.read $dir/$table.sql
+commit;
+E
+}
+
+if [ -e "$1" ]; then
+  >&2 printf "%s: Database %s already exists. Aborting.\n" "$0" "$1"
+  exit 1
+fi
+
+if ! [ -e "$2" ]; then
+  >&2 printf "%s: Data directory %s does not exist. Aborting.\n" "$0" "$2"
+  exit 1
+fi
+
+sqlite3 "$1" ".read sqlite_schema.sql"
+imp "$1" "$2" mpu_pins
+imp "$1" "$2" signals
+imp "$1" "$2" mpu_pins_signals
+imp "$1" "$2" bb_pins

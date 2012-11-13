@@ -1,0 +1,35 @@
+#!/bin/sh
+set -eu
+
+exp() {
+  local database dir table columns
+  database="$1"; shift
+  dir="$1"; shift
+  table="$1"; shift
+  columns="$1"; shift
+
+  printf "Exporting to %s, %s\n" "$dir/$table.sql" "$dir/$table.csv"
+
+  cat <<E | sqlite3 "$database"
+.mode insert $table
+.out $dir/$table.sql
+select $columns from $table order by $columns;
+
+.mode csv
+.header on
+.out $dir/$table.csv
+select $columns from $table order by $columns;
+E
+}
+
+if ! [ -e "$1" ]; then
+  >&2 printf "%s: Database %s does not exist. Aborting.\n" "$0" "$1"
+  exit 1
+fi
+
+mkdir -pv "$2"
+
+exp "$1" "$2" mpu_pins "id, linux_name"
+exp "$1" "$2" signals "id, signal_type_id, gpio_num, linux_pwm_name"
+exp "$1" "$2" mpu_pins_signals "mpu_pin_id, mode, signal_id"
+exp "$1" "$2" bb_pins "id, name, mpu_pin_id"

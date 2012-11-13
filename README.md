@@ -1,6 +1,6 @@
 # BeagleBone Pins
 
-`beagle_bone_pins.json` contains in a machine readable format:
+The repository contains in a machine readable format:
 
 * the mappings from BeagleBone expansion header pins to the microprocessor pins
 * the list of signals multiplexed to each microprocessor pin
