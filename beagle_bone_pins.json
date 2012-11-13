@@ -889,6 +889,7 @@
       "linux_name": "ecap0_in_pwm0_out",
       "signals": {
         "eCAP0_in_PWM0_out": {
+          "linux_pwm_name": "ecap.0",
           "mode": 0,
           "type": "IO"
         },
@@ -1047,6 +1048,7 @@
       "linux_name": "gpmc_a2",
       "signals": {
         "ehrpwm1A": {
+          "linux_pwm_name": "ehrpwm.1:0",
           "mode": 6,
           "type": "O"
         },
@@ -1085,6 +1087,7 @@
       "linux_name": "gpmc_a3",
       "signals": {
         "ehrpwm1B": {
+          "linux_pwm_name": "ehrpwm.1:1",
           "mode": 6,
           "type": "O"
         },
@@ -1571,6 +1574,7 @@
       "linux_name": "gpmc_ad8",
       "signals": {
         "ehrpwm2A": {
+          "linux_pwm_name": "ehrpwm.2:0",
           "mode": 4,
           "type": "O"
         },
@@ -1605,6 +1609,7 @@
       "linux_name": "gpmc_ad9",
       "signals": {
         "ehrpwm2B": {
+          "linux_pwm_name": "ehrpwm.2:1",
           "mode": 4,
           "type": "O"
         },
@@ -2207,6 +2212,7 @@
           "type": "IOD"
         },
         "eCAP1_in_PWM1_out": {
+          "linux_pwm_name": "ecap.1",
           "mode": 3,
           "type": "IO"
         },
@@ -2233,6 +2239,7 @@
           "type": "IOD"
         },
         "eCAP2_in_PWM2_out": {
+          "linux_pwm_name": "ecap.2",
           "mode": 3,
           "type": "IO"
         },
@@ -2293,6 +2300,7 @@
       "linux_name": "lcd_data0",
       "signals": {
         "ehrpwm2A": {
+          "linux_pwm_name": "ehrpwm.2:0",
           "mode": 3,
           "type": "O"
         },
@@ -2327,6 +2335,7 @@
       "linux_name": "lcd_data1",
       "signals": {
         "ehrpwm2B": {
+          "linux_pwm_name": "ehrpwm.2:1",
           "mode": 3,
           "type": "O"
         },
@@ -2649,6 +2658,7 @@
       "linux_name": "lcd_data10",
       "signals": {
         "ehrpwm1A": {
+          "linux_pwm_name": "ehrpwm.1:0",
           "mode": 2,
           "type": "O"
         },
@@ -2683,6 +2693,7 @@
       "linux_name": "lcd_data11",
       "signals": {
         "ehrpwm1B": {
+          "linux_pwm_name": "ehrpwm.1:1",
           "mode": 2,
           "type": "O"
         },
@@ -3017,6 +3028,7 @@
       "linux_name": "mcasp0_aclkx",
       "signals": {
         "ehrpwm0A": {
+          "linux_pwm_name": "ehrpwm.0:0",
           "mode": 1,
           "type": "O"
         },
@@ -3051,6 +3063,7 @@
       "linux_name": "mcasp0_ahclkr",
       "signals": {
         "eCAP2_in_PWM2_out": {
+          "linux_pwm_name": "ecap.2",
           "mode": 4,
           "type": "IO"
         },
@@ -3233,6 +3246,7 @@
       "linux_name": "mcasp0_fsx",
       "signals": {
         "ehrpwm0B": {
+          "linux_pwm_name": "ehrpwm.0:1",
           "mode": 1,
           "type": "O"
         },
@@ -4277,6 +4291,7 @@
           "type": "IO"
         },
         "eCAP1_in_PWM1_out": {
+          "linux_pwm_name": "ecap.1",
           "mode": 2,
           "type": "IO"
         },
@@ -4319,6 +4334,7 @@
           "type": "IOD"
         },
         "ehrpwm0B": {
+          "linux_pwm_name": "ehrpwm.0:1",
           "mode": 3,
           "type": "O"
         },
@@ -4395,6 +4411,7 @@
           "type": "IOD"
         },
         "ehrpwm0A": {
+          "linux_pwm_name": "ehrpwm.0:0",
           "mode": 3,
           "type": "O"
         },
@@ -4549,6 +4566,7 @@
           "type": "O"
         },
         "eCAP2_in_PWM2_out": {
+          "linux_pwm_name": "ecap.2",
           "mode": 4,
           "type": "IO"
         },
@@ -4587,6 +4605,7 @@
           "type": "I"
         },
         "eCAP1_in_PWM1_out": {
+          "linux_pwm_name": "ecap.1",
           "mode": 4,
           "type": "IO"
         },

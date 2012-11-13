@@ -7,6 +7,7 @@
 * the mappings from the microprocessor pins to `/sys/kernel/debug/omap_mux`
   names on Linux
 * for GPIO signals, the `/sys/class/gpio/gpioN` number
+* for PWM signals, the `/sys/class/pwm` name
 
 This hopefully eliminates the need for ad-hoc lists of subsets of that
 information in various BeagleBone projects.
@@ -17,7 +18,6 @@ TODO) are appreciated.
 TODO:
 
 * [The eeprom information](https://github.com/jadonk/bonescript/blob/master/node_modules/bonescript/bone.js)
-* [The `/sys/class/pwm` names](https://github.com/jadonk/bonescript/blob/master/node_modules/bonescript/bone.js)
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
