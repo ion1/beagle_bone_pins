@@ -8,6 +8,7 @@
 * There is actually a many-to-many mapping between MPU pins and signals. Switch
   to a relational model to avoid duplication of data. (Incidentally, doing this
   revealed the data sheet error mentioned above.)
+* Generate the JSON file from the relational data.
 
 # 2012-11-12
 

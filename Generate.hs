@@ -1,16 +1,6 @@
-# `data`, `gen`, `sqlite_*`, documentation text
+#!/usr/bin/env runhaskell
 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, Johan Kiviniemi has waived all copyright and
-related or neighboring rights to BeagleBone Pins. This work is published from:
-Suomi.
-
-* [Human-readable-summary of CC0](http://creativecommons.org/publicdomain/zero/1.0/)
-* [CC0 1.0 legal code](http://creativecommons.org/publicdomain/zero/1.0/legalcode)
-
-# `Generate*`
-
+{-
 © 2012 Johan Kiviniemi <devel@johan.kiviniemi.name>
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -24,3 +14,16 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+-}
+
+module Main (main) where
+
+import           Generate.Data
+import qualified Generate.JSON    as JSON
+import           System.Directory
+
+main :: IO ()
+main = do
+  pd <- parseData "data"
+  createDirectoryIfMissing False "gen"
+  JSON.generate "gen/beagle_bone_pins.json" pd
