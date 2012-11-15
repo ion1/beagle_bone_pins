@@ -34,6 +34,8 @@ begin;
     foreign key (mpu_pin_id) references mpu_pins (id),
     foreign key (signal_id) references signals (id)
   );
+  create index mpu_pins_signals_mpu_pin_id on mpu_pins_signals (mpu_pin_id);
+  create index mpu_pins_signals_signal_id  on mpu_pins_signals (signal_id);
 
   create table bb_pins (
     id          text primary key not null,
@@ -41,4 +43,5 @@ begin;
     mpu_pin_id  text null,
     foreign key (mpu_pin_id) references mpu_pins (id)
   );
+  create index bb_pins_mpu_pin_id on bb_pins (mpu_pin_id);
 commit;
