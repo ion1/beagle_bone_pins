@@ -14,99 +14,112 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 -}
 
-{-# LANGUAGE RecordWildCards #-}
-{-# LANGUAGE TupleSections   #-}
-
 module Generate.JSON (generate) where
 
 import           Control.Applicative
-import           Control.Monad
+import           Data.Aeson
+import qualified Data.Aeson.Encode.Pretty   as P
 import qualified Data.ByteString.Lazy.Char8 as LBS8
-import           Data.Json.Builder
+import qualified Data.Char                  as Char
+import           Data.Function              (on)
 import qualified Data.Map                   as Map
-import           Data.Monoid                ((<>))
+import           Data.Monoid                (mconcat)
+import qualified Data.Text                  as Text
+import           Database.HDBC
 
-import           Generate.Data
-
-data Output = Output { outBBPins  :: Map.Map String OutBBPin
-                     , outMPUPins :: Map.Map String OutMPUPin
-                     }
-  deriving (Eq, Ord, Show, Read)
-
-instance Value Output where
-  toJson (Output {..}) = toJson out
-    where out = Map.fromList [ ("bb_pins",  toJson outBBPins)
-                             , ("mpu_pins", toJson outMPUPins)
-                             ]
-
-data OutBBPin = OutBBPin { outBBPinName     :: String
-                         , outBBPinMPUPinId :: Maybe String
-                         }
-  deriving (Eq, Ord, Show, Read)
-
-instance Value OutBBPin where
-  toJson (OutBBPin {..}) = toJson out
-    where out =  Map.singleton "name" outBBPinName
-              <> maybeToMap "mpu_pin" outBBPinMPUPinId
-
-data OutMPUPin = OutMPUPin { outMPUPinLinuxName :: Maybe String
-                           , outMPUPinSignals   :: Map.Map String OutSignal
-                           }
-  deriving (Eq, Ord, Show, Read)
-
-instance Value OutMPUPin where
-  toJson (OutMPUPin {..}) = toJson out
-    where out =  (toJson <$> maybeToMap "linux_name" outMPUPinLinuxName)
-              <> (toJson <$> Map.singleton "signals" outMPUPinSignals)
-
-data OutSignal = OutSignal { outSignalMode         :: Maybe Integer
-                           , outSignalType         :: String
-                           , outSignalGPIONum      :: Maybe Integer
-                           , outSignalLinuxPWMName :: Maybe String
-                           }
-  deriving (Eq, Ord, Show, Read)
-
-instance Value OutSignal where
-  toJson (OutSignal {..}) = toJson out
-    where out =  (toJson <$> maybeToMap "mode" outSignalMode)
-              <> (toJson <$> Map.singleton "type" outSignalType)
-              <> (toJson <$> maybeToMap "gpio_num" outSignalGPIONum)
-              <> (toJson <$> maybeToMap "linux_pwm_name" outSignalLinuxPWMName)
-
-generate :: FilePath -> PinData -> IO ()
-generate path pd = LBS8.writeFile path (toJsonLBS (output pd))
-
-output :: PinData -> Output
-output (PinData {..}) = Output bbPins mpuPins
+generate :: IConnection conn => conn -> FilePath -> IO ()
+generate conn path = LBS8.writeFile path . P.encodePretty' conf =<< genJSON conn
   where
-    bbPins = Map.fromList $ do
-      BBPin {..} <- pdBBPins
+    conf = P.Config { P.confIndent  = 2
+                    , P.confCompare = Just numCompare
+                    }
 
-      let outBBPin = OutBBPin bbPinName (fromMPUPinId <$> bbPinMPUPinId)
+genJSON :: IConnection conn => conn -> IO Value
+genJSON conn = do
+  bbPins  <- genBBPins  conn
+  mpuPins <- genMPUPins conn
+  let res = Map.fromList [ ("bb_pins", toJSON bbPins)
+                         , ("mpu_pins", toJSON mpuPins)
+                         ]
+  return (toJSON res)
 
-      return (fromBBPinId bbPinId, outBBPin)
+genBBPins :: IConnection conn => conn -> IO (Map.Map String Value)
+genBBPins conn =
+  quickQuery conn "select id, name, mpu_pin_id from bb_pins" []
+    >>= fmap Map.fromList . mapM fromDBRow
+  where
+    fromDBRow [pinId_, pinName_, mpuPinId_] =
+      return (pinId, toJSON pinInfo)
+      where
+        pinInfo = mconcat
+          [ Map.singleton "name"    . toJSON <$> Just pinName
+          , Map.singleton "mpu_pin" . toJSON <$> mpuPinId
+          ]
 
-    mpuPins = Map.fromList $ do
-      MPUPin {..} <- pdMPUPins
+        pinId    = fromSql pinId_    :: String
+        pinName  = fromSql pinName_  :: String
+        mpuPinId = fromSql mpuPinId_ :: Maybe String
 
-      let outMPUPin = OutMPUPin mpuPinLinuxName (signals mpuPinId)
+    fromDBRow r = fail ("genBBPins: Unexpected DB row: " ++ show r)
 
-      return (fromMPUPinId mpuPinId, outMPUPin)
+genMPUPins :: IConnection conn => conn -> IO (Map.Map String Value)
+genMPUPins conn =
+  quickQuery conn "select id, linux_name from mpu_pins" []
+    >>= fmap Map.fromList . mapM fromDBRow
+  where
+    fromDBRow [pinId_, pinLinuxName_] = do
+      signalInfo <- genSignalInfo conn pinId
+      let pinInfo = mconcat
+            [ Map.singleton "signals"    . toJSON <$> Just signalInfo
+            , Map.singleton "linux_name" . toJSON <$> pinLinuxName
+            ]
+      return (pinId, toJSON pinInfo)
+      where
+        pinId        = fromSql pinId_        :: String
+        pinLinuxName = fromSql pinLinuxName_ :: Maybe String
 
-    signals mpuPinId = Map.fromList $ do
-      MPUPinSignal {..} <- pdMPUPinsSignals
-      guard (mpsMPUPinId == mpuPinId)
+    fromDBRow r = fail ("genMPUPins: Unexpected DB row: " ++ show r)
 
-      Signal {..} <- pdSignals
-      guard (signalId == mpsSignalId)
+genSignalInfo :: IConnection conn
+              => conn -> String -> IO (Map.Map String Value)
+genSignalInfo conn mpuPinId =
+  quickQuery conn
+    "select sig.id, pinsig.mode, typ.id, sig.gpio_num, sig.linux_pwm_name\
+    \  from mpu_pins_signals pinsig\
+    \  join signals sig on pinsig.signal_id = sig.id\
+    \  join signal_types typ on sig.signal_type_id = typ.id\
+    \  where pinsig.mpu_pin_id = ?"
+    [SqlString mpuPinId]
+    >>= fmap Map.fromList . mapM fromDBRow
+  where
+    fromDBRow [sigId_, mode_, typeId_, gpioNum_, linuxPWMName_] =
+      return (sigId, toJSON sigInfo)
+      where
+        sigInfo = mconcat
+          [ Map.singleton "mode"           . toJSON <$> mode
+          , Map.singleton "type"           . toJSON <$> Just typeId
+          , Map.singleton "gpio_num"       . toJSON <$> gpioNum
+          , Map.singleton "linux_pwm_name" . toJSON <$> linuxPWMName
+          ]
 
-      let outSignal = OutSignal mpsMode
-                                (show signalType)
-                                signalGPIONum
-                                signalLinuxPWMName
+        sigId        = fromSql sigId_        :: String
+        mode         = fromSql mode_         :: Maybe Integer
+        typeId       = fromSql typeId_       :: String
+        gpioNum      = fromSql gpioNum_      :: Maybe Integer
+        linuxPWMName = fromSql linuxPWMName_ :: Maybe String
 
-      return (fromSignalId signalId, outSignal)
+    fromDBRow r = fail ("genSignalInfo: Unexpected DB row: " ++ show r)
 
-maybeToMap :: k -> Maybe a -> Map.Map k a
-maybeToMap _ Nothing    = Map.empty
-maybeToMap k (Just val) = Map.singleton k val
+data NumSort a = NSNumber Integer
+               | NSOther a
+  deriving (Eq, Ord, Show, Read)
+
+numCompare :: Text.Text -> Text.Text -> Ordering
+numCompare = compare `on` textToNumSort
+  where
+    textToNumSort = map partToNumSort . Text.groupBy ((==) `on` Char.isDigit)
+
+    partToNumSort t =
+      case Text.uncons t of
+        Just (c, _) | Char.isDigit c -> NSNumber (read (Text.unpack t))
+        _                            -> NSOther t

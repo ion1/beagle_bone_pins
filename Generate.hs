@@ -18,12 +18,12 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 module Main (main) where
 
-import           Generate.Data
 import qualified Generate.JSON    as JSON
+import           Generate.SQL
 import           System.Directory
 
 main :: IO ()
 main = do
-  pd <- parseData "data"
   createDirectoryIfMissing False "gen"
-  JSON.generate "gen/beagle_bone_pins.json" pd
+  withDB $ \conn ->
+    JSON.generate conn "gen/beagle_bone_pins.json"
