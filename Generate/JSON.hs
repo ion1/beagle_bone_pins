@@ -38,8 +38,10 @@ genJSON :: IConnection conn => conn -> IO Value
 genJSON conn = do
   bbPins  <- genBBPins  conn
   mpuPins <- genMPUPins conn
-  let res = Map.fromList [ ("bb_pins", toJSON bbPins)
+  signals <- genSignals conn
+  let res = Map.fromList [ ("bb_pins",  toJSON bbPins)
                          , ("mpu_pins", toJSON mpuPins)
+                         , ("signals",  toJSON signals)
                          ]
   return (toJSON res)
 
@@ -82,36 +84,50 @@ genMPUPins conn =
 
     fromDBRow r = fail ("genMPUPins: Unexpected DB row: " ++ show r)
 
+-- Signal info under a MPU pin.
 genSignalInfo :: IConnection conn
               => conn -> String -> IO (Map.Map String Value)
 genSignalInfo conn mpuPinId =
   quickQuery conn
-    "select sig.id, pinsig.mode, typ.id, sig.gpio_num, sig.linux_pwm_name\
-    \  from mpu_pins_signals pinsig\
-    \  join signals sig on pinsig.signal_id = sig.id\
-    \  join signal_types typ on sig.signal_type_id = typ.id\
-    \  where pinsig.mpu_pin_id = ?"
+    "select signal_id, mode from mpu_pins_signals where mpu_pin_id = ?"
     [SqlString mpuPinId]
     >>= fmap Map.fromList . mapM fromDBRow
   where
-    fromDBRow [sigId_, mode_, typeId_, gpioNum_, linuxPWMName_] =
+    fromDBRow [sigId_, mode_] =
       return (sigId, toJSON sigInfo)
       where
         sigInfo = mconcat
           [ Just Map.empty  -- Default to an empty map.
-          , Map.singleton "mode"           . toJSON <$> mode
+          , Map.singleton "mode" . toJSON <$> mode
+          ]
+
+        sigId = fromSql sigId_ :: String
+        mode  = fromSql mode_  :: Maybe Integer
+
+    fromDBRow r = fail ("genSignalInfo: Unexpected DB row: " ++ show r)
+
+genSignals :: IConnection conn => conn -> IO (Map.Map String Value)
+genSignals conn =
+  quickQuery conn
+    "select id, signal_type_id, gpio_num, linux_pwm_name from signals" []
+    >>= fmap Map.fromList . mapM fromDBRow
+  where
+    fromDBRow [sigId_, typeId_, gpioNum_, linuxPWMName_] =
+      return (sigId, toJSON sigInfo)
+      where
+        sigInfo = mconcat
+          [ Just Map.empty  -- Default to an empty map.
           , Map.singleton "type"           . toJSON <$> Just typeId
           , Map.singleton "gpio_num"       . toJSON <$> gpioNum
           , Map.singleton "linux_pwm_name" . toJSON <$> linuxPWMName
           ]
 
         sigId        = fromSql sigId_        :: String
-        mode         = fromSql mode_         :: Maybe Integer
         typeId       = fromSql typeId_       :: String
         gpioNum      = fromSql gpioNum_      :: Maybe Integer
         linuxPWMName = fromSql linuxPWMName_ :: Maybe String
 
-    fromDBRow r = fail ("genSignalInfo: Unexpected DB row: " ++ show r)
+    fromDBRow r = fail ("genSignals: Unexpected DB row: " ++ show r)
 
 data NumSort a = NSNumber Integer
                | NSOther a
