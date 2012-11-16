@@ -14,6 +14,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 -}
 
+{-# LANGUAGE DeriveDataTypeable    #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE OverloadedStrings     #-}
 {-# LANGUAGE RecordWildCards       #-}
@@ -31,9 +32,10 @@ module Generate.Types
 
 import           Control.Applicative
 import           Data.Aeson
-import           Data.Convertible    (Convertible (..))
+import           Data.Convertible
 import qualified Data.Map            as Map
 import           Data.Maybe          (catMaybes)
+import           Data.Typeable       (Typeable)
 import           Database.HDBC       (SqlValue (..))
 
 newtype BBPinId = BBPinId { fromBBPinId :: String }
@@ -67,11 +69,14 @@ data MPUPinSignal = MPUPinSignal { mpsMode     :: Maybe Integer
   deriving (Eq, Ord, Show, Read)
 
 data Signal = Signal { sId           :: SignalId
-                     , sType         :: String
+                     , sType         :: SignalType
                      , sGPIONum      :: Maybe Integer
                      , sLinuxPWMName :: Maybe String
                      }
   deriving (Eq, Ord, Show, Read)
+
+data SignalType = A | I | O | IO | IOD | PWR | GND
+  deriving (Eq, Ord, Bounded, Enum, Show, Read, Typeable)
 
 instance ToJSON BBPinId  where toJSON = toJSON . fromBBPinId
 instance ToJSON MPUPinId where toJSON = toJSON . fromMPUPinId
@@ -114,3 +119,13 @@ instance ToJSON Signal where
                          , ("gpio_num"       .=) <$> sGPIONum
                          , ("linux_pwm_name" .=) <$> sLinuxPWMName
                          ]
+
+instance ToJSON SignalType where toJSON = toJSON . show
+
+instance Convertible SqlValue SignalType where
+  safeConvert sqlv = readConvert =<< safeConvert sqlv
+    where
+      readConvert s =
+        case reads s of
+          [(st, [])] -> return st
+          r -> convError ("reads " ++ show s ++ " returned: " ++ show r) sqlv
