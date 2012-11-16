@@ -52,7 +52,8 @@ genBBPins conn =
       return (pinId, toJSON pinInfo)
       where
         pinInfo = mconcat
-          [ Map.singleton "name"    . toJSON <$> Just pinName
+          [ Just Map.empty  -- Default to an empty map.
+          , Map.singleton "name"    . toJSON <$> Just pinName
           , Map.singleton "mpu_pin" . toJSON <$> mpuPinId
           ]
 
@@ -70,7 +71,8 @@ genMPUPins conn =
     fromDBRow [pinId_, pinLinuxName_] = do
       signalInfo <- genSignalInfo conn pinId
       let pinInfo = mconcat
-            [ Map.singleton "signals"    . toJSON <$> Just signalInfo
+            [ Just Map.empty  -- Default to an empty map.
+            , Map.singleton "signals"    . toJSON <$> Just signalInfo
             , Map.singleton "linux_name" . toJSON <$> pinLinuxName
             ]
       return (pinId, toJSON pinInfo)
@@ -96,7 +98,8 @@ genSignalInfo conn mpuPinId =
       return (sigId, toJSON sigInfo)
       where
         sigInfo = mconcat
-          [ Map.singleton "mode"           . toJSON <$> mode
+          [ Just Map.empty  -- Default to an empty map.
+          , Map.singleton "mode"           . toJSON <$> mode
           , Map.singleton "type"           . toJSON <$> Just typeId
           , Map.singleton "gpio_num"       . toJSON <$> gpioNum
           , Map.singleton "linux_pwm_name" . toJSON <$> linuxPWMName
