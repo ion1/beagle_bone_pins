@@ -39,41 +39,41 @@ import           Data.Typeable       (Typeable)
 import           Database.HDBC       (SqlValue (..))
 
 newtype BBPinId = BBPinId { fromBBPinId :: String }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 newtype MPUPinId = MPUPinId { fromMPUPinId :: String }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 newtype SignalId = SignalId { fromSignalId :: String }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 
 data PinInfo = PinInfo { piBBPins  :: Map.Map BBPinId  BBPin
                        , piMPUPins :: Map.Map MPUPinId MPUPin
                        , piSignals :: Map.Map SignalId Signal
                        }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 
 data BBPin = BBPin { bbpId       :: BBPinId
                    , bbpName     :: String
                    , bbpMPUPinId :: Maybe MPUPinId
                    }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 
 data MPUPin = MPUPin { mpId        :: MPUPinId
                      , mpLinuxName :: Maybe String
                      , mpSignals   :: Map.Map SignalId MPUPinSignal
                      }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 
 data MPUPinSignal = MPUPinSignal { mpsMode     :: Maybe Integer
                                  , mpsSignalId :: SignalId
                                  }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 
 data Signal = Signal { sId           :: SignalId
                      , sType         :: SignalType
                      , sGPIONum      :: Maybe Integer
                      , sLinuxPWMName :: Maybe String
                      }
-  deriving (Eq, Ord, Show, Read)
+  deriving (Eq, Ord, Show, Read, Typeable)
 
 data SignalType = A | I | O | IO | IOD | PWR | GND
   deriving (Eq, Ord, Bounded, Enum, Show, Read, Typeable)
