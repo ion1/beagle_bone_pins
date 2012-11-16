@@ -25,5 +25,5 @@ import           System.Directory
 main :: IO ()
 main = do
   createDirectoryIfMissing False "gen"
-  withDB $ \conn ->
-    JSON.generate conn "gen/beagle_bone_pins.json"
+  withPinInfo $ \pinInfo ->
+    JSON.generate pinInfo "gen/beagle_bone_pins.json"
