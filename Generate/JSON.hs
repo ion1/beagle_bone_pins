@@ -20,10 +20,8 @@ module Generate.JSON (generate) where
 import           Data.Aeson
 import qualified Data.Aeson.Encode.Pretty   as P
 import qualified Data.ByteString.Lazy.Char8 as LBS8
-import qualified Data.Char                  as Char
-import           Data.Function              (on)
-import qualified Data.Text                  as Text
 
+import           Generate.NumCompare
 import           Generate.Types
 
 generate :: PinInfo -> FilePath -> IO ()
@@ -32,19 +30,5 @@ generate pinInfo path = LBS8.writeFile path encoded
     encoded = P.encodePretty' conf (toJSON pinInfo)
 
     conf = P.Config { P.confIndent  = 2
-                    , P.confCompare = Just numCompare
+                    , P.confCompare = Just numCompareText
                     }
-
-data NumSort a = NSNumber Integer
-               | NSOther a
-  deriving (Eq, Ord, Show, Read)
-
-numCompare :: Text.Text -> Text.Text -> Ordering
-numCompare = compare `on` textToNumSort
-  where
-    textToNumSort = map partToNumSort . Text.groupBy ((==) `on` Char.isDigit)
-
-    partToNumSort t =
-      case Text.uncons t of
-        Just (c, _) | Char.isDigit c -> NSNumber (read (Text.unpack t))
-        _                            -> NSOther t
