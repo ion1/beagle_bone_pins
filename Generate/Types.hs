@@ -14,11 +14,15 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 -}
 
-{-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE RecordWildCards   #-}
+{-# LANGUAGE MultiParamTypeClasses #-}
+{-# LANGUAGE OverloadedStrings     #-}
+{-# LANGUAGE RecordWildCards       #-}
 
 module Generate.Types
-( PinInfo (..)
+( BBPinId (..)
+, MPUPinId (..)
+, SignalId (..)
+, PinInfo (..)
 , BBPin (..)
 , MPUPin (..)
 , MPUPinSignal (..)
@@ -27,44 +31,64 @@ module Generate.Types
 
 import           Control.Applicative
 import           Data.Aeson
+import           Data.Convertible    (Convertible (..))
 import qualified Data.Map            as Map
 import           Data.Maybe          (catMaybes)
+import           Database.HDBC       (SqlValue (..))
 
-data PinInfo = PinInfo { piBBPins  :: Map.Map String BBPin
-                       , piMPUPins :: Map.Map String MPUPin
-                       , piSignals :: Map.Map String Signal
+newtype BBPinId = BBPinId { fromBBPinId :: String }
+  deriving (Eq, Ord, Show, Read)
+newtype MPUPinId = MPUPinId { fromMPUPinId :: String }
+  deriving (Eq, Ord, Show, Read)
+newtype SignalId = SignalId { fromSignalId :: String }
+  deriving (Eq, Ord, Show, Read)
+
+data PinInfo = PinInfo { piBBPins  :: Map.Map BBPinId  BBPin
+                       , piMPUPins :: Map.Map MPUPinId MPUPin
+                       , piSignals :: Map.Map SignalId Signal
                        }
   deriving (Eq, Ord, Show, Read)
 
-data BBPin = BBPin { bbpId       :: String
+data BBPin = BBPin { bbpId       :: BBPinId
                    , bbpName     :: String
-                   , bbpMPUPinId :: Maybe String
+                   , bbpMPUPinId :: Maybe MPUPinId
                    }
   deriving (Eq, Ord, Show, Read)
 
-data MPUPin = MPUPin { mpId        :: String
+data MPUPin = MPUPin { mpId        :: MPUPinId
                      , mpLinuxName :: Maybe String
-                     , mpSignals   :: Map.Map String MPUPinSignal
+                     , mpSignals   :: Map.Map SignalId MPUPinSignal
                      }
   deriving (Eq, Ord, Show, Read)
 
 data MPUPinSignal = MPUPinSignal { mpsMode     :: Maybe Integer
-                                 , mpsSignalId :: String
+                                 , mpsSignalId :: SignalId
                                  }
   deriving (Eq, Ord, Show, Read)
 
-data Signal = Signal { sId           :: String
+data Signal = Signal { sId           :: SignalId
                      , sType         :: String
                      , sGPIONum      :: Maybe Integer
                      , sLinuxPWMName :: Maybe String
                      }
   deriving (Eq, Ord, Show, Read)
 
+instance ToJSON BBPinId  where toJSON = toJSON . fromBBPinId
+instance ToJSON MPUPinId where toJSON = toJSON . fromMPUPinId
+instance ToJSON SignalId where toJSON = toJSON . fromSignalId
+
+instance Convertible SqlValue BBPinId where
+  safeConvert = fmap BBPinId . safeConvert
+instance Convertible SqlValue MPUPinId where
+  safeConvert = fmap MPUPinId . safeConvert
+instance Convertible SqlValue SignalId where
+  safeConvert = fmap SignalId . safeConvert
+
 instance ToJSON PinInfo where
   toJSON (PinInfo {..}) =
-    object [ "bb_pins"  .= piBBPins
-           , "mpu_pins" .= piMPUPins
-           , "signals"  .= piSignals
+    object [ "bb_pins"  .= Map.mapKeys fromBBPinId  piBBPins
+           , "mpu_pins" .= Map.mapKeys fromMPUPinId piMPUPins
+           , "signals"  .= Map.mapKeys fromSignalId piSignals
            ]
 
 instance ToJSON BBPin where
@@ -76,8 +100,9 @@ instance ToJSON BBPin where
 instance ToJSON MPUPin where
   toJSON (MPUPin {..}) =
     (object . catMaybes) [ ("linux_name" .=) <$> mpLinuxName
-                         , ("signals"    .=) <$> Just mpSignals
+                         , ("signals"    .=) <$> Just mpSignals'
                          ]
+    where mpSignals' = Map.mapKeys fromSignalId mpSignals
 
 instance ToJSON MPUPinSignal where
   toJSON (MPUPinSignal {..}) =

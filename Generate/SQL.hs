@@ -62,7 +62,7 @@ genPinInfo conn = do
                    , piSignals = signals
                    }
 
-genBBPins :: IConnection conn => conn -> IO (Map.Map String BBPin)
+genBBPins :: IConnection conn => conn -> IO (Map.Map BBPinId BBPin)
 genBBPins conn = do
   sth  <- prepare conn "select id, name, mpu_pin_id from bb_pins"
   _    <- execute sth []
@@ -76,7 +76,7 @@ genBBPins conn = do
                    }
            )
 
-genMPUPins :: IConnection conn => conn -> IO (Map.Map String MPUPin)
+genMPUPins :: IConnection conn => conn -> IO (Map.Map MPUPinId MPUPin)
 genMPUPins conn = do
   sth  <- prepare conn "select id, linux_name from mpu_pins"
   _    <- execute sth []
@@ -103,7 +103,7 @@ genMPUPins conn = do
                     }
            )
 
-genSignals :: IConnection conn => conn -> IO (Map.Map String Signal)
+genSignals :: IConnection conn => conn -> IO (Map.Map SignalId Signal)
 genSignals conn = do
   sth  <- prepare conn
             "select id, signal_type_id, gpio_num, linux_pwm_name from signals"
