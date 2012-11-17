@@ -18,93 +18,40 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 module Generate.Haskell (generate) where
 
-import qualified Blaze.ByteString.Builder           as B
-import qualified Blaze.ByteString.Builder.Char.Utf8 as B
-import qualified Data.ByteString.Char8              as BS8
-import qualified Data.Char                          as Char
-import           Data.List
-import qualified Data.Map                           as Map
-import           Data.Monoid                        (mconcat, (<>))
-import           System.IO                          (IOMode (..), withFile)
+import           Control.Arrow                (first)
+import qualified Data.Char                    as Char
+import           Data.Function                (on)
+import           Data.List                    (sortBy)
+import qualified Data.Map                     as Map
+import           Language.Haskell.Exts
+import           Language.Haskell.Exts.SrcLoc (noLoc)
+import           System.IO                    (IOMode (..), hPutStr, withFile)
 
 import           Generate.NumCompare
 import           Generate.Types
 
-class GenHs a where
-  genHs :: a -> B.Builder
-
-instance GenHs a => GenHs (Maybe a) where
-  genHs = bMaybe genHs
-
-instance (GenHs a) => GenHs [a] where
-  genHs xs =  B.fromString "["
-           <> mconcat ((intersperse (B.fromString ", ") . map genHs) xs)
-           <> B.fromString "]"
-
-instance (GenHs a, GenHs b) => GenHs (a,b) where
-  genHs (a,b) =  B.fromString "("  <> genHs a
-              <> B.fromString ", " <> genHs b
-              <> B.fromString ")"
-
-instance (GenHs a, GenHs b) => GenHs (Map.Map a b) where
-  genHs theMap =  B.fromString "(Map.fromList "
-               <> (genHs . Map.toList) theMap
-               <> B.fromString ")"
-
-instance GenHs BBPinId  where genHs = B.fromString . makeBBPinId
-instance GenHs MPUPinId where genHs = B.fromString . makeMPUPinId
-instance GenHs SignalId where genHs = B.fromString . makeSignalId
-instance GenHs SignalType where genHs = B.fromShow
-
-instance GenHs PinInfo where
-  genHs (PinInfo {..}) =
-    bUnlines
-      [ genPinId "BBPinId"  ((map makeBBPinId  . Map.keys) piBBPins)
-      , genPinId "MPUPinId" ((map makeMPUPinId . Map.keys) piMPUPins)
-      , genPinId "SignalId" ((map makeSignalId . Map.keys) piSignals)
-      , genBBPins  piBBPins
-      , genMPUPins piMPUPins
-      , genSignals piSignals
-      ]
-
-instance GenHs BBPin where
-  genHs (BBPin {..}) =  B.fromString "(BBPin"
-                     <> B.fromChar ' ' <> genHs bbpId
-                     <> B.fromChar ' ' <> B.fromShow bbpName
-                     <> B.fromChar ' ' <> genHs bbpMPUPinId
-                     <> B.fromString ")"
-instance GenHs MPUPin where
-  genHs (MPUPin {..}) =  B.fromString "(MPUPin"
-                      <> B.fromChar ' ' <> genHs mpId
-                      <> B.fromChar ' ' <> bMaybe B.fromShow mpLinuxName
-                      <> B.fromChar ' ' <> genHs mpSignals
-                      <> B.fromString ")"
-instance GenHs MPUPinSignal where
-  genHs (MPUPinSignal {..}) =  B.fromString "(MPUPinSignal"
-                            <> B.fromChar ' ' <> bMaybe B.fromShow mpsMode
-                            <> B.fromChar ' ' <> genHs mpsSignalId
-                            <> B.fromString ")"
-instance GenHs Signal where
-  genHs (Signal {..}) =  B.fromString "(Signal"
-                      <> B.fromChar ' ' <> genHs sId
-                      <> B.fromChar ' ' <> genHs sType
-                      <> B.fromChar ' ' <> bMaybe B.fromShow sGPIONum
-                      <> B.fromChar ' ' <> bMaybe B.fromShow sLinuxPWMName
-                      <> B.fromString ")"
-
 generate :: PinInfo -> FilePath -> IO ()
 generate pinInfo path =
   withFile path WriteMode $ \f ->
-    B.toByteStringIO (BS8.hPut f) builder
+    hPutStr f code
   where
-    builder = bUnlines [ B.fromString header, genHs pinInfo ]
+    code = unlines
+      [ "-- Generated file. http://creativecommons.org/publicdomain/zero/1.0/"
+      , ""
+      , prettyPrint ast
+      ]
+
+    ast = case parseModule header of
+      ParseOk (Module loc modName pragmas warns exports imports decls) ->
+        Module loc modName pragmas warns exports imports (decls ++ newDecls)
+      other -> error ("Failed to parse header: " ++ show other)
+
+    newDecls = genPinInfo pinInfo
 
 header :: String
 header =
   unlines
-    [ "-- Generated file. http://creativecommons.org/publicdomain/zero/1.0/"
-    , ""
-    , "module BeagleBone.Pins.Data"
+    [ "module BeagleBone.Pins.Data"
     , "( BBPin (..)"
     , ", MPUPin (..)"
     , ", MPUPinSignal (..)"
@@ -148,58 +95,137 @@ header =
     , "  deriving (Eq, Ord, Bounded, Enum, Show, Read)"
     ]
 
-genPinId :: String -> [String] -> B.Builder
-genPinId name pinIds =
-  bUnlines [ mconcat [ B.fromString "data ", B.fromString name
-                     , B.fromString " = "
-                     , B.fromString (intercalate " | " pinIdsSorted)
-                     ]
-           , B.fromString "  deriving (Eq, Ord, Bounded, Enum, Show, Read)"
-           ]
+genPinInfo :: PinInfo -> [Decl]
+genPinInfo (PinInfo {..}) =
+  concat
+    [ genPinId "BBPinId"  ((map makeBBPinId  . Map.keys) piBBPins)
+    , genPinId "MPUPinId" ((map makeMPUPinId . Map.keys) piMPUPins)
+    , genPinId "SignalId" ((map makeSignalId . Map.keys) piSignals)
+    , genBBPins  piBBPins
+    , genMPUPins piMPUPins
+    , genSignals piSignals
+    ]
+
+genPinId :: String -> [String] -> [Decl]
+genPinId dataName pinIds =
+  [ DataDecl noLoc DataType [] (name dataName) [] pinCons derivs ]
   where
+    pinCons = map pinCon pinIdsSorted
     pinIdsSorted = sortBy numCompareString pinIds
+    pinCon conId = QualConDecl noLoc [] [] (ConDecl (name conId) [])
 
-genBBPins :: Map.Map BBPinId BBPin -> B.Builder
+    derivs = map (\n -> (UnQual (name n), []))
+                 ["Eq", "Ord", "Bounded", "Enum", "Show", "Read"]
+
+genBBPins :: Map.Map BBPinId BBPin -> [Decl]
 genBBPins bbPins =
-  bUnlines [ B.fromString "bbPins :: Map.Map BBPinId BBPin"
-           , B.fromString "bbPins = " <> genHs bbPins
-           ]
+  genMap "bbPins" "BBPin" "BBPinId"
+         ((map gen . mapToListSorted makeBBPinId) bbPins)
+  where
+    gen (mpIdStr, BBPin {..}) =
+      Tuple [ (con . name) mpIdStr
+            , appFun ((con . name) "BBPin")
+                     [ (con . name) mpIdStr
+                     , strE bbpName
+                     , astMaybe (con . name . makeMPUPinId) bbpMPUPinId
+                     ]
+            ]
 
-genMPUPins :: Map.Map MPUPinId MPUPin -> B.Builder
+genMPUPins :: Map.Map MPUPinId MPUPin -> [Decl]
 genMPUPins mpuPins =
-  bUnlines [ B.fromString "mpuPins :: Map.Map MPUPinId MPUPin"
-           , B.fromString "mpuPins = " <> genHs mpuPins
-           ]
+  genMap "mpuPins" "MPUPin" "MPUPinId"
+         ((map gen . mapToListSorted makeMPUPinId) mpuPins)
+  where
+    gen (mpIdStr, MPUPin {..}) =
+      Tuple [ (con . name) mpIdStr
+            , appFun ((con . name) "MPUPin")
+                     [ (con . name) mpIdStr
+                     , astMaybe strE mpLinuxName
+                     , genMPUPinSignals mpSignals
+                     ]
+            ]
 
-genSignals :: Map.Map SignalId Signal -> B.Builder
+genMPUPinSignals :: Map.Map SignalId MPUPinSignal -> Exp
+genMPUPinSignals mpSignals =
+  app (qvar (ModuleName "Map") (name "fromList"))
+      (listE ((map gen . mapToListSorted makeSignalId) mpSignals))
+  where
+    gen (sIdStr, MPUPinSignal {..}) =
+      Tuple [ (con . name) sIdStr
+            , appFun ((con . name) "MPUPinSignal")
+                     [ astMaybe intE mpsMode
+                     , (con . name) sIdStr
+                     ]
+            ]
+
+genSignals :: Map.Map SignalId Signal -> [Decl]
 genSignals signals =
-  bUnlines [ B.fromString "signals :: Map.Map SignalId Signal"
-           , B.fromString "signals = " <> genHs signals
-           ]
+  genMap "signals" "Signal" "SignalId"
+         ((map gen . mapToListSorted makeSignalId) signals)
+  where
+    gen (sIdStr, Signal {..}) =
+      Tuple [ (con . name) sIdStr
+            , appFun ((con . name) "Signal")
+                     [ (con . name) sIdStr
+                     , (con . name . show) sType
+                     , astMaybe intE sGPIONum
+                     , astMaybe strE sLinuxPWMName
+                     ]
+            ]
+
+genMap :: String -> String -> String -> [Exp] -> [Decl]
+genMap valName typeName idName valueList =
+  [ TypeSig noLoc [name valName] typeAST
+  , PatBind noLoc (pvar (name valName)) Nothing (UnGuardedRhs valueAST)
+            (BDecls [])
+  ]
+  where
+    typeAST    =    qtycon (ModuleName "Map") (name "Map")
+            `TyApp` tycon (name idName)
+            `TyApp` tycon (name typeName)
+
+    valueAST = app (qvar (ModuleName "Map") (name "fromList"))
+                   (listE valueList)
+
+mapToListSorted :: (k -> String) -> Map.Map k v -> [(String, v)]
+mapToListSorted f = sortBy (numCompareString `on` fst)
+                  . map (first f)
+                  . Map.toList
 
 makeBBPinId :: BBPinId -> String
-makeBBPinId name = validate str `seq` str
-  where str = "BB_" ++ fromBBPinId name
+makeBBPinId origId = validate str `seq` str
+  where str = "BB_" ++ fromBBPinId origId
 
 makeMPUPinId :: MPUPinId -> String
-makeMPUPinId name = validate str `seq` str
-  where str = "MPU_" ++ fromMPUPinId name
+makeMPUPinId origId = validate str `seq` str
+  where str = "MPU_" ++ fromMPUPinId origId
 
 makeSignalId :: SignalId -> String
-makeSignalId name = validate str `seq` str
-  where str = "Sig_" ++ fromSignalId name
+makeSignalId origId = validate str `seq` str
+  where str = "Sig_" ++ fromSignalId origId
 
 validate :: String -> ()
-validate name
-  | all validChar name = ()
-  | otherwise = error ("Invalid name: " ++ show name)
+validate valName
+  | all validChar valName = ()
+  | otherwise = error ("Invalid name: " ++ show valName)
   where
     validChar '_' = True
     validChar c   = Char.isAlphaNum c
 
-bMaybe :: (a -> B.Builder) -> Maybe a -> B.Builder
-bMaybe f (Just a) = B.fromString "(Just " <> f a <> B.fromString ")"
-bMaybe _ Nothing  = B.fromString "Nothing"
+-- Some haskell-src-exts helpers.
 
-bUnlines :: [B.Builder] -> B.Builder
-bUnlines = mconcat . map (<> B.fromChar '\n')
+astMaybe :: (a -> Exp) -> Maybe a -> Exp
+astMaybe f (Just a) = app ((con . name) "Just") (f a)
+astMaybe _ Nothing  = (con . name) "Nothing"
+
+tycon :: Name -> Type
+tycon n    = TyCon (UnQual n)
+
+qtycon :: ModuleName -> Name -> Type
+qtycon m n = TyCon (Qual m n)
+
+con :: Name -> Exp
+con n      = Con (UnQual n)
+
+--qcon :: ModuleName -> Name -> Exp
+--qcon m n   = Con (Qual m n)
