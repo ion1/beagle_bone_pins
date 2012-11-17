@@ -28,6 +28,7 @@ module Generate.Types
 , MPUPin (..)
 , MPUPinSignal (..)
 , Signal (..)
+, SignalType (..)
 ) where
 
 import           Control.Applicative
