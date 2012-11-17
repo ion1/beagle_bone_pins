@@ -1,3 +1,11 @@
+# 2012-11-17
+
+* Generate a Haskell module.
+
+# 2012-11-16
+
+* JSON: Move signal info into its own top-level item.
+
 # 2012-11-13
 
 * Add `USR0`…`USR3` signals.
