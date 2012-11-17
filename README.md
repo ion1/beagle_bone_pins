@@ -18,8 +18,8 @@ TODO) are appreciated.
 The `data` directory contains the original data. `sqlite_import` creates an
 SQLite database out of it and `sqlite_export` dumps it back to the data files.
 
-The `gen` directory contains files generated from the data. At the moment only
-JSON output has been implemented.
+The `gen` directory contains files generated from the data. At the moment a
+JSON data structure and a Haskell module are generated.
 
 `Generate*` contains the code to parse the CSV data files and generate output
 files.
@@ -27,7 +27,7 @@ files.
 TODO:
 
 * [The eeprom information](https://github.com/jadonk/bonescript/blob/master/node_modules/bonescript/bone.js)
-* Generate modules/libraries in various programming languages from the data.
+* Generate modules/libraries in more programming languages from the data.
 
 The references for the data:
 
