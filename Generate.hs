@@ -19,11 +19,13 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 module Main (main) where
 
 import qualified Generate.JSON    as JSON
+import qualified Generate.Haskell    as Hs
 import           Generate.SQL
 import           System.Directory
 
 main :: IO ()
 main = do
-  createDirectoryIfMissing False "gen"
-  withPinInfo $ \pinInfo ->
+  createDirectoryIfMissing True "gen/haskell/BeagleBone/Pins"
+  withPinInfo $ \pinInfo -> do
     JSON.generate pinInfo "gen/beagle_bone_pins.json"
+    Hs.generate   pinInfo "gen/haskell/BeagleBone/Pins/Data.hs"
