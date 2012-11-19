@@ -21,8 +21,7 @@ SQLite database out of it and `sqlite_export` dumps it back to the data files.
 The `gen` directory contains files generated from the data. At the moment a
 JSON data structure and a Haskell module are generated.
 
-`Generate*` contains the code to parse the CSV data files and generate output
-files.
+`Generate*` contains the code to generate the output files from the data.
 
 TODO:
 
