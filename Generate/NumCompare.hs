@@ -28,34 +28,31 @@ import qualified Data.ByteString            as BS
 import qualified Data.ByteString.Char8      as BS8
 import qualified Data.ByteString.Lazy       as BSL
 import qualified Data.ByteString.Lazy.Char8 as BSL8
+import qualified Data.Char                  as Char
 import           Data.Function              (on)
 import qualified Data.List                  as List
 import qualified Data.Text                  as Text
 import qualified Data.Text.Lazy             as TextL
 
-import qualified Data.Char                  as Char
-
 data NumSort a = NSNumber Integer
                | NSOther a
   deriving (Eq, Ord, Show, Read)
 
-numCompareString :: String -> String -> Ordering
+numCompareString :: String         -> String         -> Ordering
+numCompareText   :: Text.Text      -> Text.Text      -> Ordering
+numCompareTextL  :: TextL.Text     -> TextL.Text     -> Ordering
+numCompareBS     :: BS.ByteString  -> BS.ByteString  -> Ordering
+numCompareBSL    :: BSL.ByteString -> BSL.ByteString -> Ordering
+
 numCompareString = numCompare List.groupBy uncons id
   where
     uncons (x:xs) = Just (x, xs)
     uncons _      = Nothing
 
-numCompareText :: Text.Text -> Text.Text -> Ordering
-numCompareText = numCompare Text.groupBy Text.uncons Text.unpack
-
-numCompareTextL :: TextL.Text -> TextL.Text -> Ordering
+numCompareText  = numCompare Text.groupBy  Text.uncons  Text.unpack
 numCompareTextL = numCompare TextL.groupBy TextL.uncons TextL.unpack
-
-numCompareBS :: BS.ByteString -> BS.ByteString -> Ordering
-numCompareBS = numCompare BS8.groupBy BS8.uncons BS8.unpack
-
-numCompareBSL :: BSL.ByteString -> BSL.ByteString -> Ordering
-numCompareBSL = numCompare BSL8.groupBy BSL8.uncons BSL8.unpack
+numCompareBS    = numCompare BS8.groupBy   BS8.uncons   BS8.unpack
+numCompareBSL   = numCompare BSL8.groupBy  BSL8.uncons  BSL8.unpack
 
 numCompare :: Ord a
            => ((Char -> Char -> Bool) -> a -> [a])  -- ^ groupBy
